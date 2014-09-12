@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="JW-Red Remote Build" basedir="." default="push">
+	<target name="initialize"> 
+    	<exec dir="/Users/jason/Documents/JW-Website/jw-red/.project" vmlauncher="false" executable="/bin/bash">
+    		<arg line="./initialize.sh"/>
+    		<arg line="jason"/>
+    	</exec>
+	</target> 
+    <target name="push"> 
+    	<exec dir="/Users/jason/Documents/JW-Website/jw-red/.project" vmlauncher="false" executable="/bin/bash">
+    		<arg line="./build.sh"/>
+    	</exec>
+	</target> 
+</project>
