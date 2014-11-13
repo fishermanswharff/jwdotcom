@@ -6,7 +6,7 @@ var Router = Backbone.Router.extend({
   },
 
   home: function(){
-    var template = Handlebars.compile($("#homeTemplate"));
+    var template = Handlebars.compile($("#homeTemplate").html());
     $(".view").html(template({
       data: data
     }));
@@ -14,7 +14,7 @@ var Router = Backbone.Router.extend({
 
   projects: function(){
     trace('hello world');
-    var template = Handlebars.compile($("#projectsTemplate"));
+    var template = Handlebars.compile($("#projectsTemplate").html());
     $(".view").html(template({
       
     }));
