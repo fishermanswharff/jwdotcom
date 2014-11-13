@@ -1,24 +1,26 @@
 {
   "skills": {
-      "technical":[
-        {"Ruby": "I wrote fizzbuzz in 5 lines"},
-        {"Ruby on Rails": "I can build api endpoints"},
-        {"Postgres": "Relational Database—used in most of my rails projects"},
-        {"SQL": "I know enough to be dangerous"},
-        {"Javascript": "Object-oriented javascript used to build this website"},
-        {"Actionscript 3": "Contributed to rich, object-oriented internet application with Actionscript 3"},
-        {"jQuery": "Working on committing the entire documentation to memory"},
-        {"CSS3": "Used to build this website"},
-        {"HTML5": "Used to build this website"},
-        {"Git": "Used to version control this website, with webhooks"},
-        {"Github": "Used to store versions of this website"},
-        {"SVN": "Experience managing and teaching SVN VC on small to medium projects with SVN"},
-        {"LESS": "Written my own mixins"},
-        {"SASS": "Written my own mixins"},
-        {"XML": "Can use xml namespaces"},
-        {"ANT": "Used to compile this website"}
-      ],
-      "software":[]
+      "technical":{
+        "Ruby": "I wrote fizzbuzz in 5 lines",
+        "Ruby on Rails": "I can build api endpoints",
+        "Postgres": "Relational Database—used in most of my rails projects",
+        "SQL": "I know enough to be dangerous",
+        "Javascript": "Object-oriented javascript used to build this website",
+        "Actionscript 3": "Contributed to rich, object-oriented internet application with Actionscript 3",
+        "jQuery": "Working on committing the entire documentation to memory",
+        "CSS3": "Used to build this website",
+        "HTML5": "Used to build this website",
+        "Git": "Used to version control this website, with webhooks",
+        "Github": "Used to store versions of this website",
+        "SVN": "Experience managing and teaching SVN VC on small to medium projects with SVN",
+        "LESS": "Written my own mixins",
+        "SASS": "Written my own mixins",
+        "XML": "Can use xml namespaces",
+        "ANT": "Used to compile this website"
+      },
+      "software":{
+        
+      }
   },
   "experience": {
 
