@@ -24,7 +24,7 @@ var Router = Backbone.Router.extend({
 var router = new Router();
 Backbone.history.start();
 $(document).ready(function(){
-  $.getJSON('data/resume.json', {param1: 'value1'}, function(json, textStatus) {
-      /*optional stuff to do after success */
+  $.getJSON('data/resume.json', function(json, textStatus) {
+      trace(json, textStatus);
   });
 });
