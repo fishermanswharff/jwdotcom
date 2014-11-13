@@ -2,7 +2,7 @@ function trace(){ for(var i = 0, count = arguments.length; i < count; i++){conso
 var data;
 $(document).ready(function(){
   $.getJSON('data/resume.json', function(json, textStatus) {
-    data = json;
+    data = JSON.stringify(json);
     trace(data);
   });
 });

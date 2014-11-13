@@ -8,7 +8,7 @@ var Router = Backbone.Router.extend({
   home: function(){
     var template = Handlebars.compile($("#homeTemplate"));
     $(".view").html(template({
-      JSON.stringify(data): data
+      data: data
     }));
   },
 
