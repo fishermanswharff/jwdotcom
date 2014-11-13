@@ -6,25 +6,31 @@ var Router = Backbone.Router.extend({
   },
 
   home: function(){
-    var template = Handlebars.compile($("#homeTemplate").html());
-    $(".view").html(template({
-      data: data
-    }));
+    $.getJSON('data/resume.json', function(json, textStatus) {
+      var template = Handlebars.compile($("#homeTemplate").html());
+      $(".view").html(template({
+        data: json
+      }));
+    });
+
   },
 
   projects: function(){
-    trace('hello world');
-    var template = Handlebars.compile($("#projectsTemplate").html());
-    $(".view").html(template({
-      data: data
-    }));
+    $.getJSON('data/resume.json', function(json, textStatus) {
+      var template = Handlebars.compile($("#projectsTemplate").html());
+      $(".view").html(template({
+        data: json
+      }));
+    });
   },
 
   resume: function(){
-    var template = Handlebars.compile($("#resumeTemplate").html());
-    $(".view").html(template({
-      data: data
-    }));
+    $.getJSON('data/resume.json', function(json, textStatus) {
+      var template = Handlebars.compile($("#resumeTemplate").html());
+      $(".view").html(template({
+        data: json
+      }));
+    });
   }
 
 });
