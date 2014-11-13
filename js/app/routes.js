@@ -8,11 +8,18 @@ var Router = Backbone.Router.extend({
   },
 
   home: function(){
-    trace('hello world');
+    var template = Handlebars.compile($("#homeTemplate"));
+    $(".view").html(template({
+      data: data
+    }));
   },
 
   projects: function(){
     trace('hello world');
+    var template = Handlebars.compile($("#projectsTemplate"));
+    $(".view").html(template({
+      data: data
+    }));
   },
 
   resume: function(){
