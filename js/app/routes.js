@@ -16,14 +16,14 @@ var Router = Backbone.Router.extend({
     trace('hello world');
     var template = Handlebars.compile($("#projectsTemplate").html());
     $(".view").html(template({
-      
+      data: data
     }));
   },
 
   resume: function(){
     var template = Handlebars.compile($("#resumeTemplate").html());
     $(".view").html(template({
-      
+      data: data
     }));
   }
 
