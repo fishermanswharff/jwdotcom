@@ -1,4 +1,4 @@
-{
+'{
   "skills": {
     "technical": {
       "Ruby": "I wrote fizzbuzz in 5 lines",
@@ -31,4 +31,4 @@
   "projects": {
 
   }
-}
+}'
