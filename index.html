@@ -55,9 +55,8 @@
 
     <script type="text/x-handlebars-template" id="resumeTemplate">
       <h1>Resume Page</h1>
-      {{data}}
         <h4>Technical Skills:</h4>
-        {{#each skills.technical}}
+        {{#each data.skills.technical}}
           <h5>{{@key}}: <small>{{this}}</small></h5>
         {{/each}}
     </script>
