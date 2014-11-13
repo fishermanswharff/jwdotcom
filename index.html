@@ -57,9 +57,8 @@
       <h1>Resume Page</h1>
       {{#each data}}
         {{#each skills}}
-          <h2>{{@key}}:</h2>  
           {{#each technical}}
-            <h4>{{@key}}</h4>
+            <h4>{{@key}}: {{this}}</h4>
           {{/each}}
         {{/each}}
         
