@@ -28,7 +28,7 @@ var Router = Backbone.Router.extend({
     $.getJSON('data/resume.json', function(json, textStatus) {
       var template = Handlebars.compile($("#resumeTemplate").html());
       $(".view").html(template({
-        data: json
+        data.skills: json
       }));
     });
   }
