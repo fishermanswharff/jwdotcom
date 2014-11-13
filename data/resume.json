@@ -1,4 +1,4 @@
-{
+[{
   "skills": [{
       "technical":[
         {"Ruby": "I wrote fizzbuzz in 5 lines"},
@@ -19,7 +19,7 @@
         {"ANT": "Used to compile this website"}
       ]
     },{
-      "softwarwe:":[]
+      "software":[]
   }],
   "experience": {
 
@@ -28,4 +28,4 @@
   "projects": {
 
   }
-}
+}]
