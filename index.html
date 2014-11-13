@@ -55,8 +55,11 @@
 
     <script type="text/x-handlebars-template" id="resumeTemplate">
       <h1>Resume Page</h1>
-      {{#each data.skills.technical}}
+      {{#each data.skills}}
         <h2>{{@key}}:</h2>
+        {{#each data.skills.technical}}
+          <h4>{{@key}}</h4>
+        {{/each}}
       {{/each}}
     </script>
 
