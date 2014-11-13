@@ -21,10 +21,10 @@ var Router = Backbone.Router.extend({
   },
 
   resume: function(){
-    /*var template = Handlebars.compile($("#resumeTemplate").html());
+    var template = Handlebars.compile($("#resumeTemplate").html());
     $(".view").html(template({
       data: data
-    }));*/
+    }));
   }
 
 });
