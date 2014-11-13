@@ -10,7 +10,7 @@ var Router = Backbone.Router.extend({
   home: function(){
     var template = Handlebars.compile($("#homeTemplate"));
     $(".view").html(template({
-      greeting: data
+      
     }));
   },
 
@@ -30,12 +30,6 @@ var Router = Backbone.Router.extend({
   }
 
 });
-var data;
+
 var router = new Router();
 Backbone.history.start();
-$(document).ready(function(){
-  $.getJSON('data/resume.json', function(json, textStatus) {
-    data = $.parseJSON(json);
-    trace(data);
-  });
-});
