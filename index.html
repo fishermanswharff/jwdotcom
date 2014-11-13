@@ -55,6 +55,12 @@
 
     <script type="text/x-handlebars-template" id="resumeTemplate">
       <h1>Resume Page</h1>
+      {{#each skills}}
+        {{#each technical}}
+          {{@key}}: {{this}}
+        {{/each}}
+      {{/each}}
+
     </script>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
