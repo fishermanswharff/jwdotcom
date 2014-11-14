@@ -28,6 +28,7 @@ nav ul li a {
   display: block;
   text-decoration: none;
   font-family: "ff-meta-web-pro";
+  margin: 0 10px;
 }
 
 div.skill {
