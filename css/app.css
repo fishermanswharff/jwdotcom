@@ -64,6 +64,10 @@ nav ul li a {
   color: white;
   color: rgba(255,255,255,0.9);
 }
+
+
+/*    RESUME       */
+/*—————————————————*/
 div.professional,
 div.education,
 div.skill {
@@ -74,6 +78,8 @@ div.skill img.software-icon {
   max-width: 75px;
   margin-right: 20px;
 }
+ul.contact-info li { list-style: none; display: inline-block; }
+
 
 /*    TYPOGRAPHY   */
 /*—————————————————*/
@@ -153,6 +159,7 @@ span.bottom-border:after {
 
 span.contact-icon {
   width: 32px;
+  display: block;
 }
 
 
