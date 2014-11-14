@@ -7,7 +7,7 @@ App.activateNavigation = function(e){
 };
 
 $(document).ready(function(){
-  $("nav#main-nav").on("click","a#menu-icon",function(event){
+  $("nav#main-nav").on("click","a#menu-button",function(event){
     App.activateNavigation(event);
     trace($(this));
   });
