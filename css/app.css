@@ -35,7 +35,8 @@ nav ul li a {
   font-family: "ff-meta-web-pro";
   margin: 0 10px;
   font-size: 1.2em;
-  font-weight: ;
+  font-weight: bold;
+  font-weight: 700;
   font-color: #00b3b8;
 }
 div.skill {

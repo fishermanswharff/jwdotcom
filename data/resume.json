@@ -21,7 +21,7 @@
       },
       "software":{
         "Sublime Text": {
-          "level": "I can create custom ant builds, keyboard shortcut master",
+          "level": "I can create custom ant builds, keyboard shortcut master, customized icon artwork",
           "icon":"images/sublimetext.png"
         },
         "Flash Builder": {
@@ -59,6 +59,6 @@
       }
   },
   "experience": {
-    
+
   }
 }
