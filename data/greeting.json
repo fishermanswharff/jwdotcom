@@ -4,5 +4,27 @@
       "header": "Hi. I'm Jason and I make things.",
       "subheader": "Designer, Developer, Artist, Professional Tinkerer, Constant Learner. I'm a monster that gobbles up life."
     }
+  },
+  "contact":{
+    "Phone": {
+      "url": "tel:+16173889520",
+      "icon": "images/phone.svg"
+    },
+    "Email": {
+      "url": "mailto:fishermanswharff@mac.com",
+      "icon": "images/email.svg"
+    },
+    "Github": {
+      "url": "https://github.com/fishermanswharff",
+      "icon": "images/github.svg"
+    },
+    "Twitter": {
+      "url": "https://twitter.com/jasonwharff",
+      "icon": "images/twitter.svg"
+    },
+    "LinkedIn": {
+      "url": "https://www.linkedin.com/in/jasonwharff",
+      "icon": "images/linkedin.svg"
+    }
   }
 }
