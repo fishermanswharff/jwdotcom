@@ -118,6 +118,18 @@ div.greeting p a.btn {
   border-radius: 4px;
   border: 1px solid white;
   color: white;
+  font-family: "ff-meta-web-pro", sans-serif;
+  padding: 5px 20px 8px;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.25s ease 0s;
+  -moz-transition: all 0.25s ease 0s;
+  -o-transition: all 0.25s ease 0s;
+  transition: all 0.25s ease 0s;
+}
+div.greeting p a.btn:hover {
+  background: white;
+  color: #00B3B7;
+  border-color: #00B3B7;
 }
 
 /*    RESUME       */
