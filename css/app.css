@@ -141,6 +141,7 @@ span.work-icon {
   width: 48px;
   display: block;
 }
+
 span.bottom-border { position: relative; display: block; }
 span.bottom-border:after {
   position: absolute;
@@ -150,7 +151,9 @@ span.bottom-border:after {
   background: url(../images/bottom-border.svg) repeat-x;
 }
 
-
+span.contact-icon {
+  width: 32px;
+}
 
 
 
