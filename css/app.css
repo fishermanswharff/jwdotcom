@@ -25,10 +25,16 @@ nav {
   transition: all 0.5s ease-in-out 0;
 }
 
+nav.active {
+  
+}
+
 a#menu-icon {
   position: fixed;
-  top: 0;
+  top: 10px;
   right: 20px;
+  width: 64px;
+  height: 64px;
 }
 
 nav ul {
