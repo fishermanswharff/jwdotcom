@@ -63,6 +63,9 @@ h2 a {
   text-decoration: none;
   border-bottom: 2px dotted #00b3b8;
 }
+h2 small {
+  font-style: italic;
+}
 
 span.skillkey {
   font-weight: bold;
