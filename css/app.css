@@ -83,7 +83,7 @@ h1 { color: #00B3B7; }
 h1.work-header { 
   position: relative;
   padding-left: 60px;
-  border-width: 0 0 10px 0;
+  border: 0 0 10px 0;
   border-image-source: url(../images/bottom-border.svg);
   border-image-slice: 33%;
   border-image-width: 10px;
