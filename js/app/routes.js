@@ -8,7 +8,8 @@ var Router = Backbone.Router.extend({
   home: function(){
     $("nav").removeClass("active");
     $.getJSON('data/greeting.json', function(json, textStatus) {
-      var template = Handlebars.compile($("#homeTemplate").html());
+      var template = Handlebars.templates.home;
+      // var template = Handlebars.compile($("#homeTemplate").html());
       $(".view").html(template({
         data: json
       }));

@@ -52,25 +52,6 @@
       <li>Create the post-receive hook on your remote server.</li>
     </ul> 
     -->
-    <script type="text/x-handlebars-template" id="homeTemplate">
-      <div id="home-container">
-        <div class="greeting">
-          {{#each data.greetings}}
-            <h1 id="thatsme">{{header}}</h1>
-            <p><a href="#/projects" class="btn">{{cta}}</a></p>
-          {{/each}}
-          <div class="contact-footer">
-            <ul class="contact-info">
-              {{#each data.contact}}
-              <li class="{{@key}}"><a href="{{url}}"><span class="contact-icon"><img src="{{icon}}"/></span></a></li>
-              {{/each}}
-            </ul>
-          </div>
-        </div>
-
-      </div>
-      
-    </script>
 
     <script type="text/x-handlebars-template" id="projectsTemplate">
       <h1>Projects Page</h1>
