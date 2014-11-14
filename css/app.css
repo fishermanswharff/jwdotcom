@@ -85,7 +85,7 @@ div#home-container {
 }
 div#home-container .greeting {
   height: auto;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 179, 184, 0.8);
   padding: 60px;
   position: relative;
   top: 25%;
@@ -110,7 +110,6 @@ div#home-container h1#thatsme:after {
   height: 64px;
   background: url(../images/thatsme.png);
 }
-/*div.contact-footer { text-align: center; }*/
 div.contact-footer ul.contact-info { margin-top: 0px; }
 div.contact-footer ul li a { border-bottom: none; }
 div.contact-footer ul li a span.contact-icon { width: 64px; }
