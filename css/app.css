@@ -86,6 +86,7 @@ h1.work-header {
   background-image: url(../images/bottom-border.svg);
   background-position-y: 100%;
   background-repeat: repeat-x;
+  background-size: 100% 10px;
 }
 h1.work-header:before { 
   position: absolute;
