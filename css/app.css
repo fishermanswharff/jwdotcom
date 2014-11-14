@@ -19,10 +19,14 @@ nav {
   padding: 0;
   z-index: 1;
   background: rgba(255,255,255,0.9);
+  -webkit-transition: all 0.5s ease-in-out 0;
+  -moz-transition: all 0.5s ease-in-out 0;
+  -o-transition: all 0.5s ease-in-out 0;
+  transition: all 0.5s ease-in-out 0;
 }
 
 a#menu-icon {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 20px;
 }
