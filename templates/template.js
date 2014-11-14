@@ -25,6 +25,9 @@ templates['home'] = template({"1":function(depth0,helpers,partials,data) {
   if (stack1 != null) { buffer += stack1; }
   return buffer + "      </ul>\n    </div>\n  </div>\n</div>";
 },"useData":true});
+templates['projects'] = template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
+  return "<h1>Hello world!</h1>";
+  },"useData":true});
 templates['resume'] = template({"1":function(depth0,helpers,partials,data) {
   var helper, lambda=this.lambda, escapeExpression=this.escapeExpression, functionType="function", helperMissing=helpers.helperMissing;
   return "      <li class=\""
