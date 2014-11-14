@@ -95,7 +95,7 @@ h1.edu-header:before {
   left: -60px;
   content: '';
   width: 48px;
-  height: 45px;
+  height: 30px;
   background: url(../images/grad-cap.svg);
 }
 
