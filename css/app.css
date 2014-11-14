@@ -97,7 +97,6 @@ div#home-container h1#thatsme:after {
   width: 64px;
   height: 64px;
   background: url(../images/thatsme.png);
-  box-shadow: 0px 0px 5px #000;
 }
 
 /*    RESUME       */
