@@ -6,7 +6,7 @@ var Router = Backbone.Router.extend({
   },
 
   home: function(){
-    $("nav").removeClass("active");
+    $("nav#main-nav-drop").removeClass("active");
     $("a.menu-icon").removeClass("active");
     $.getJSON('data/greeting.json', function(json, textStatus) {
       var template = Handlebars.templates.home;
@@ -18,7 +18,7 @@ var Router = Backbone.Router.extend({
   },
 
   projects: function(){
-    $("nav").removeClass("active");
+    $("nav#main-nav-drop").removeClass("active");
     $("a.menu-icon").removeClass("active");
     $.getJSON('data/projects.json', function(json, textStatus) {
       var template = Handlebars.templates.projects;
@@ -29,7 +29,7 @@ var Router = Backbone.Router.extend({
   },
 
   resume: function(){
-    $("nav").removeClass("active");
+    $("nav#main-nav-drop").removeClass("active");
     $("a.menu-icon").removeClass("active");
     $.getJSON('data/resume.json', function(json, textStatus) {
       var template = Handlebars.templates.resume;
