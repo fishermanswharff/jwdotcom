@@ -58,21 +58,22 @@
     <script type="text/x-handlebars-template" id="resumeTemplate">
         <div class="skills">
           <div class="experience">
+          
           </div>
           <div class="technical-skills grid_16">
-            <h4>Technical Skills:</h4>
+            <h2>Technical Skills:</h2>
             {{#each data.skills.technical}}
-              <div class="skill">
-                <p class="{{@key}}"><span class="skillkey">{{@key}}:</span><span class="level">{{level}}</span></p>
-              </div>
+            <div class="skill">
+              <p class="{{@key}}"><span class="skillkey">{{@key}}:</span><span class="level">{{level}}</span></p>
+            </div>
             {{/each}}
           </div>
           <div class="software-skills grid_16">
-            <h4>Software Skills:</h4>
+            <h2>Software Skills:</h2>
             {{#each data.skills.software}}
-              <div class="skill">
-                <p class="{{@key}}"><span class="skillkey">{{@key}}:</span><span class="level">{{level}}</span></p>
-              </div>
+            <div class="skill">
+              <p class="{{@key}}"><span class="skillkey">{{@key}}:</span><span class="level">{{level}}</span></p>
+            </div>
             {{/each}}
           </div>
         </div>

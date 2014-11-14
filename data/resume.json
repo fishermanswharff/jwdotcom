@@ -17,7 +17,7 @@
         "LESS": {"level":"Written my own mixins"},
         "SASS": {"level":"Written my own mixins"},
         "XML": {"level":"Can use xml namespaces"},
-        "ANT": {"level":"Used to compile this website"}
+        "ANT": {"level":"Used to compile this website and auto commit to my git repository"}
       },
       "software":{
         "Sublime Text": {
@@ -59,6 +59,6 @@
       }
   },
   "experience": {
-
+    
   }
 }

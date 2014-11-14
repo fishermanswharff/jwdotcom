@@ -7,3 +7,16 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-family: "ff-tisa-web-pro", Georgia, serif;
 }
+
+div.skill {
+  background: #fcfcfc;
+  border-radius: 8px;
+}
+
+span.skillkey {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+span.level {
+
+}
