@@ -55,7 +55,10 @@ div.skill img.software-icon {
 /*—————————————————*/
 h1, h2, h3, h4, h5, h6 {
   font-family: "ff-meta-web-pro", Helvetica, sans-serif;
+  font-weight: normal;
+  font-weight: 400;
 }
+
 span.skillkey {
   font-weight: bold;
   font-size: 1.3em;
