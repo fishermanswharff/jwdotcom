@@ -56,3 +56,8 @@ span.skillkey {
 span.level {
   font-size: 1.1em;
 }
+
+span.normalize {
+  font-weight: normal;
+  font-size: .9em;
+}
