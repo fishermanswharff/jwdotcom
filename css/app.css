@@ -83,12 +83,11 @@ h1 { color: #00B3B7; }
 h1.work-header { 
   position: relative;
   padding-left: 60px;
-  /*border-bottom: 10px;*/
-  border-image: url("../images/bottom-border.svg") 33% 10px 0 stretch;
-  /*-moz-border-bottom-image-slice: 100%;*/
-  /*-moz-border-bottom-image-width: 10px;*/
-  /*-moz-border-bottom-image-outset: 0;*/
-  /*-moz-border-bottom-image-repeat: repeat;*/
+  border-bottom: 10px;
+  -moz-border-bottom-image-slice: 100%;
+  -moz-border-bottom-image-width: 10px;
+  -moz-border-bottom-image-outset: 0;
+  -moz-border-bottom-image-repeat: repeat;
 }
 h1.work-header:before { 
   position: absolute;
