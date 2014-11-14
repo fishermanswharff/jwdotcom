@@ -17,8 +17,9 @@ nav {
   padding: 0;
 }
 
-nav ul {
+nav ul li {
   list-style: none;
+  display: inline-block;
 }
 
 div.skill {
