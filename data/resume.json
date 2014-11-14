@@ -1,64 +1,86 @@
 {
   "skills": {
-      "technical":{
-        "Ruby": {"level": "I wrote fizzbuzz in 5 lines"},
-        "Ruby on Rails": {"level": "I can build api endpoints"},
-        "Postgres": {"level": "Relational Database—used in most of my rails projects"},
-        "Angular": {"level":"I've written custom directives"},
-        "SQL": {"level":"I know enough to be dangerous"},
-        "Javascript": {"level":"Object-oriented javascript used to build this website"},
-        "Actionscript 3": {"level":"Contributed to rich, object-oriented internet application with Actionscript 3"},
-        "jQuery": {"level":"Working on committing the entire documentation to memory"},
-        "CSS3": {"level":"Used to build this website"},
-        "HTML5": {"level":"Used to build this website"},
-        "Git": {"level":"Used to version control this website, with webhooks"},
-        "Github": {"level":"Used to store versions of this website"},
-        "SVN": {"level":"Experience managing and teaching SVN on small to medium projects with SVN"},
-        "LESS": {"level":"Written my own mixins"},
-        "SASS": {"level":"Written my own mixins"},
-        "XML": {"level":"Can use xml namespaces"},
-        "ANT": {"level":"Used to compile this website and auto commit to my git repository"}
+    "technical":{
+      "Ruby": {"level": "I wrote fizzbuzz in 5 lines"},
+      "Ruby on Rails": {"level": "I can build api endpoints"},
+      "Postgres": {"level": "Relational Database—used in most of my rails projects"},
+      "Angular": {"level":"I've written custom directives"},
+      "SQL": {"level":"I know enough to be dangerous"},
+      "Javascript": {"level":"Object-oriented javascript used to build this website"},
+      "Actionscript 3": {"level":"Contributed to rich, object-oriented internet application with Actionscript 3"},
+      "jQuery": {"level":"Working on committing the entire documentation to memory"},
+      "CSS3": {"level":"Used to build this website"},
+      "HTML5": {"level":"Used to build this website"},
+      "Git": {"level":"Used to version control this website, with webhooks"},
+      "Github": {"level":"Used to store versions of this website"},
+      "SVN": {"level":"Experience managing and teaching SVN on small to medium projects with SVN"},
+      "LESS": {"level":"Written my own mixins"},
+      "SASS": {"level":"Written my own mixins"},
+      "XML": {"level":"Can use xml namespaces"},
+      "ANT": {"level":"Used to compile this website and auto commit to my git repository"}
+    },
+    "software":{
+      "Sublime Text": {
+        "level": "I can create custom ant builds, keyboard shortcut master, customized icon artwork",
+        "icon":"images/sublimetext.png"
       },
-      "software":{
-        "Sublime Text": {
-          "level": "I can create custom ant builds, keyboard shortcut master, customized icon artwork",
-          "icon":"images/sublimetext.png"
-        },
-        "Flash Builder": {
-          "level": "I know my way around",
-          "icon":"images/flash-builder.png"
-        },
-        "Flash": {
-          "level":"I can use Actionscript 3 to animate particle effects",
-          "icon":"images/flash.png"  
-        },
-        "After Effects": {
-          "level":"I can animate on the timeline, I know my way around",
-          "icon":"images/after-effects.png"  
-        },
-        "InDesign": {
-          "level":"Power User: Integrated InCopy workflow for pulishing workflow",
-          "icon":"images/indesign.png"
-        },
-        "Illustrator": {
-          "level":"Expert Level: I've drawn my own letterforms in Illustrator",
-          "icon":"images/illustrator.png"  
-        },
-        "Photoshop": {
-          "level":"Power User: I batch like a boss",
-          "icon":"images/photoshop.png"  
-        },
-        "Balsamiq": {
-          "level":"I know my way around",
-          "icon":"images/balsamiq.png"  
-        },
-        "Wordpress": {
-          "level":"I do it for money",
-          "icon":"images/wordpress.png"
-        }
+      "Flash Builder": {
+        "level": "I know my way around",
+        "icon":"images/flash-builder.png"
+      },
+      "Flash": {
+        "level":"I can use Actionscript 3 to animate particle effects",
+        "icon":"images/flash.png"  
+      },
+      "After Effects": {
+        "level":"I can animate on the timeline, I know my way around",
+        "icon":"images/after-effects.png"  
+      },
+      "InDesign": {
+        "level":"Power User: Integrated InCopy workflow for pulishing workflow",
+        "icon":"images/indesign.png"
+      },
+      "Illustrator": {
+        "level":"Expert Level: I've drawn my own letterforms in Illustrator",
+        "icon":"images/illustrator.png"  
+      },
+      "Photoshop": {
+        "level":"Power User: I batch like a boss",
+        "icon":"images/photoshop.png"  
+      },
+      "Balsamiq": {
+        "level":"I know my way around",
+        "icon":"images/balsamiq.png"  
+      },
+      "Wordpress": {
+        "level":"I do it for money",
+        "icon":"images/wordpress.png"
       }
+    }
   },
   "experience": {
-    
+    "professional": {
+      "Educational Media Solutions": {
+        "title": "Interactive Designer, Junior Developer",
+        "dates": "2013–2014",
+        "description": "Designer for web and mobile application development company. Projects range from courseware platform design and development, html email design and coding, and web & iOS app design, with a heavy focus on e-learning and education.",
+        "url": "http://www.educationalmediasolutions.com/"
+      },
+      "Navitome": {
+        "title": "Interactive Designer",
+        "dates": "2013–2014",
+        "description": "Designer for Cambridge-based startup. Actively leading the creative direction, UX/UI, prototyping and design on the web application that is the core company product. Other responsibilities include designing and developing the company website as well as the corporate brand identity.",
+        "url": "https://navitome.com/"
+      },
+      "Center for Social Innovation":{
+        "title": "Designer, Developer",
+        "dates": "2009–2014",
+        "description": "Lead designer on multi-million dollar initiatives designing and developing interactive, multi-media e-learning platforms and websites. Led design and creative team through 400% company growth while aligning design and development decisions with strategic business goals and objectives.",
+        "url": "http://www.center4si.com/"
+      }
+    },
+    "education": {
+
+    }
   }
 }
