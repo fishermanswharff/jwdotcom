@@ -1,5 +1,9 @@
 {
   "greetings": {
-
+    "section1": {
+      "header":"",
+      "subheader":"",
+      "image-url": ""
+    }
   }
 }
