@@ -57,13 +57,19 @@
 
     <script type="text/x-handlebars-template" id="resumeTemplate">
         <div class="skills">
-          <div class="experience">
+          <div class="experience grid_16">
+            {{#each data.experience.professional}}
             <div class="professional">
-              {{#each data.experience.professional}}
-                <h2><a href="{{url}}">{{@key}}</a> <small>{{dates}}</small></h2>
-                <p><span class="job-title">{{title}}: </span>{{description}}<p>
-              {{/each}}
+              <h2><a href="{{url}}">{{@key}}</a> <small>{{dates}}</small></h2>
+              <p><span class="job-title">{{title}}: </span>{{description}}<p>
             </div>
+            {{/each}}
+            {{#each data.experience.education}}
+            <div class="education">
+              <h2><a href=""></a> <small></small></h2>
+              <p><span class="degree">: </span>{{description}}<p>
+            </div>
+            {{/each}}
           </div>
           <div class="technical-skills grid_16">
             <h2>Technical Skill: <span class="normalize">Achievement Attained</span></h2>
