@@ -88,7 +88,7 @@ div.skill img.software-icon {
 div.contact {
   text-align: left;
 }
-ul.contact-info { margin: 60px 0 20px; }
+ul.contact-info { margin: 60px 0 20px; padding: 0; }
 ul.contact-info li { margin: 0 10px; list-style: none; display: inline-block; }
 ul.contact-info li a { text-decoration: none; border-bottom: 1px dotted; font-family: "ff-meta-web-pro"; font-weight: 700; color: #00B3B7;}
 
