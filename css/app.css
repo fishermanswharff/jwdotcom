@@ -83,20 +83,18 @@ div#home-container {
   top: 0;
   left: 0;
 }
-div#home-container .greeting {
+div#home-container div.greeting {
   height: auto;
-  /*background: rgba(0, 179, 184, 0.8);*/
-  padding: 60px;
+  padding: 40px;
   position: relative;
   top: 25%;
 }
 
-div#home-container h1,
-div#home-container h2 {
+div.greeting h1,
+div.greeting h2 {
   font-weight: normal;
   font-weight: 400;
   display: inline-block;
-  /*text-shadow: 0px 0px 2px #000;*/
   color: #fff;
   position: relative;
 }
