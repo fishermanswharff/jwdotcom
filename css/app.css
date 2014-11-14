@@ -93,6 +93,7 @@ h1.edu-header {margin-left: 60px; position: relative; color: #00b3b7;}
 h1.edu-header:before {
   position: absolute;
   left: -60px;
+  top: 15px;
   content: '';
   width: 48px;
   height: 30px;
