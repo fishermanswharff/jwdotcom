@@ -22,10 +22,11 @@
       "software":{
         "Sublime Text": {
           "level": "I can create custom ant builds, keyboard shortcut master",
-          "icon":"url"
+          "icon":"images/sublimetext.png"
         },
         "Flash Builder": {
-
+          "level": "I know my way around",
+          "icon":"images/flashbuilder.png"
         },
         "InDesign": {},
         "Illustrator": {},
