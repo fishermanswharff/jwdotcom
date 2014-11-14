@@ -39,6 +39,10 @@ nav#nav-toggle {
   left: 0;
   width: 100%;
   z-index: 2;
+  background-color: rgba(255,255,255,0.3);
+}
+nav#nav-toggle:hover {
+  background-color: rgba(255,255,255,0.9); 
 }
 
 a.menu-icon {
