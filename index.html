@@ -62,6 +62,13 @@
 
     <script type="text/x-handlebars-template" id="resumeTemplate">
       <div class="skills container">
+        <div class="contact">
+          <ul>
+            {{#each data.contact}}
+            <li class="{{@key}}"><a href="{{url}}"><img src="{{icon}}"/>{{@key}}</a></li>
+            {{/each}}
+          </ul>
+        </div>
         <div class="experience grid_16">
           <h1 class="work-header">Work Experience:</h1>
           <span class="bottom-border"></span>

@@ -99,5 +99,27 @@
         "url": "http://www.elon.edu/home/"
       }
     }
+  },
+  "contact":{
+    "Phone": {
+      "url": "tel:+16173889520",
+      "icon": "images/phone.svg"
+    }
+    "Email": {
+      "url": "fishermanswharff@mac.com",
+      "icon": "images/email.svg"  
+    },
+    "Github": {
+      "url": "https://github.com/fishermanswharff",
+      "icon": "images/github.svg"
+    },
+    "Twitter": {
+      "url": "",
+      "icon": "images/twitter.svg"
+    },
+    "LinkedIn": {
+      "url": "",
+      "icon": "images/linkedin.svg"
+    }
   }
 }
