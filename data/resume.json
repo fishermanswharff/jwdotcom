@@ -28,14 +28,34 @@
           "level": "I know my way around",
           "icon":"images/flash-builder.png"
         },
-        "InDesign": {},
-        "Illustrator": {},
-        "Photoshop": {},
-        "Flash": {},
-        "After Effects": {},
-        "Balsamiq": {},
-        "Aptana Studio": {},
-        "Wordpress": {}
+        "Flash": {
+          "level":"I can use Actionscript 3 to animate particle effects",
+          "icon":"images/flash.png"  
+        },
+        "After Effects": {
+          "level":"I can animate on the timeline, I know my way around",
+          "icon":"images/after-effects.png"  
+        },
+        "InDesign": {
+          "level":"Power User: Integrated InCopy workflow for pulishing workflow",
+          "icon":"images/indesign.png"
+        },
+        "Illustrator": {
+          "level":"Expert Level: I've drawn my own letterforms in Illustrator",
+          "icon":"images/illustrator.png"  
+        },
+        "Photoshop": {
+          "level":"Power User: I batch like a boss",
+          "icon":"images/photoshop.png"  
+        },
+        "Balsamiq": {
+          "level":"I know my way around",
+          "icon":"images/balsamiq.png"  
+        },
+        "Wordpress": {
+          "level":"I do it for money",
+          "icon":"images/wordpress.png"
+        }
       }
   },
   "experience": {
