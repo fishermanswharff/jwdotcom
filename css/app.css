@@ -84,12 +84,6 @@ h1 { color: #00B3B7; }
 h1.work-header { 
   position: relative;
   padding-left: 60px;
-  border: 0 0 10px 0;
-  border-image-source: url(../images/bottom-border.svg);
-  border-image-slice: 33%;
-  border-image-width: 10px;
-  border-image-outset: 0;
-  border-image-repeat: stretch;
 }
 h1.work-header:before { 
   position: absolute;
@@ -145,7 +139,14 @@ span.work-icon {
   width: 48px;
   display: block;
 }
-
+span.bottom-border { position: relative; display: block; }
+span.bottom-border:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 10px;
+  background: url(../images/bottom-border.svg) repeat-x;
+}
 
 
 
