@@ -85,7 +85,7 @@ div#home-container {
 }
 div#home-container .greeting {
   height: auto;
-  background: rgba(0, 179, 184, 0.8);
+  /*background: rgba(0, 179, 184, 0.8);*/
   padding: 60px;
   position: relative;
   top: 25%;
