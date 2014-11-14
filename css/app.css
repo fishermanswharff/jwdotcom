@@ -3,6 +3,7 @@
 }
 
 body {
+  position: relative;
   font-family: "ff-tisa-web-pro", Georgia, serif;
   margin-top: 60px;
   font-size: 1.3em;
@@ -12,7 +13,7 @@ body {
 /*—————————————————*/
 nav {
   position: absolute;
-  top: 100%;
+  top: -100%;
   left: 0;
   width: 100%;
   margin: 0;
