@@ -48,6 +48,7 @@ nav ul {
 nav ul li {
   list-style: none;
   display: block;
+  text-align: center;
 }
 nav ul li a {
   display: block;
