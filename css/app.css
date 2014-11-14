@@ -22,10 +22,10 @@ nav {
   z-index: 1;
   background: #5f5c58;
   background: rgba(95,92,88,0.99);
-  -webkit-transition: all 0.5s ease-in-out 0;
-  -moz-transition: all 0.5s ease-in-out 0;
-  -o-transition: all 0.5s ease-in-out 0;
-  transition: all 0.5s ease-in-out 0;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
 }
 
 nav.active {
@@ -38,6 +38,7 @@ a#menu-icon {
   right: 20px;
   width: 64px;
   height: 64px;
+  cursor: pointer;
 }
 
 nav ul {
