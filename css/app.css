@@ -90,7 +90,7 @@ div.contact {
 }
 ul.contact-info { margin: 20px auto; }
 ul.contact-info li { margin: 0 10px; list-style: none; display: inline-block; }
-ul.contact-info li a { text-decoration: none; border-bottom: 1px dotted; font-family: "ff-meta-web-pro"}
+ul.contact-info li a { text-decoration: none; border-bottom: 1px dotted; font-family: "ff-meta-web-pro"; font-weight: 700; color: #00B3B7;}
 
 /*    TYPOGRAPHY   */
 /*—————————————————*/
