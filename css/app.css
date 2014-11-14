@@ -7,8 +7,3 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-family: "ff-tisa-web-pro", Georgia, serif;
 }
-
-.skill h5, 
-.skill h6 {
-  display: inline;
-}
