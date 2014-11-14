@@ -84,8 +84,8 @@ h1.work-header:before {
   position: absolute;
   left: -60px;
   content: '';
-  width: 48px;
-  height: 45px;
+  width: 42px;
+  height: 35px;
   background: url(../images/brief-case.svg);
 
 }
