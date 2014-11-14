@@ -76,6 +76,7 @@
           </div>
           {{/each}}
           <h1 class="edu-header">Education:</h1>
+          <span class="bottom-border"></span>
           {{#each data.experience.education}}
           <div class="education">
             <h2><a href="{{url}}">{{@key}}</a> <small>{{dates}}</small></h2>
@@ -85,6 +86,7 @@
         </div>
         <div class="technical-skills grid_16">
           <h1>Technical Skill: <span class="normalize">Achievement Attained</span></h1>
+          <span class="bottom-border"></span>
           {{#each data.skills.technical}}
           <div class="skill">
             <p class="{{@key}}"><span class="skillkey">{{@key}}: </span><span class="level">{{level}}</span></p>
@@ -92,7 +94,8 @@
           {{/each}}
         </div>
         <div class="software-skills grid_16">
-          <h2>Software Skills:</h2>
+          <h1>Software Skills:</h1>
+          <span class="bottom-border"></span>
           {{#each data.skills.software}}
           <div class="skill">
             <p><img class="software-icon" src="{{icon}}"/><span class="skillkey">{{@key}}: </span><span class="level">{{level}}</span></p>
