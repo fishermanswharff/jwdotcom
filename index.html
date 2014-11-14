@@ -54,7 +54,7 @@
     -->
     <script type="text/x-handlebars-template" id="homeTemplate">
       <div id="home-container">
-        {{#each section1}}
+        {{#each data.section1}}
         <h1>{{header}}</h1>
         {{/each}}
       </div>
@@ -68,7 +68,7 @@
       <div class="skills container">
         <div class="contact">
           <ul class="contact-info">
-            {{#each contact}}
+            {{#each data.contact}}
             <li class="{{@key}}"><a href="{{url}}"><span class="contact-icon"><img src="{{icon}}"/></span>{{@key}}</a></li>
             {{/each}}
           </ul>
