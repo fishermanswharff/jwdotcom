@@ -113,6 +113,12 @@ div#home-container h1#thatsme:after {
 div.contact-footer ul.contact-info { margin-top: 0px; }
 div.contact-footer ul li a { border-bottom: none; }
 div.contact-footer ul li a span.contact-icon { width: 32px; }
+div.greeting p a.btn {
+  text-decoration: none;
+  border-radius: 4px;
+  border: 1px solid white;
+  color: white;
+}
 
 /*    RESUME       */
 /*—————————————————*/
