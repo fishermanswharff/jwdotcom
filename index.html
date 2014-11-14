@@ -67,7 +67,16 @@
     <script type="text/x-handlebars-template" id="resumeTemplate">
       <div class="skills">
         <div class="experience grid_16">
-          <h1>Work Experience:</h1>
+          <h1>
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+               viewBox="0 0 256 256" enable-background="new 0 0 256 256" xml:space="preserve">
+            <path id="SUITCASE_2_" fill-rule="evenodd" clip-rule="evenodd" d="M238.9,238.9h-19.1v-91.8V74.5h19.1c6.3,0,11.5,5.1,11.5,11.5
+              v72.7v45.9v22.9C250.4,233.8,245.2,238.9,238.9,238.9z M47.7,238.9v-91.8v-3.8V74.5h22.9c0-31.7,25.7-57.4,57.4-57.4
+              s57.4,25.7,57.4,57.4h22.9v72.7v91.8H47.7z M128,40c-19,0-34.4,15.4-34.4,34.4h68.8C162.4,55.5,147,40,128,40z M5.6,227.4v-22.9
+              v-45.9V85.9c0-6.3,5.1-11.5,11.5-11.5h19.1v68.8v3.8v91.8H17.1C10.8,238.9,5.6,233.8,5.6,227.4z"/>
+            </svg>
+            Work Experience:
+            </h1>
           {{#each data.experience.professional}}
           <div class="professional">
             <h2><a href="{{url}}">{{@key}}</a> <small>{{dates}}</small></h2>
