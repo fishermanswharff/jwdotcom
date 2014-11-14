@@ -83,6 +83,10 @@ div#home-container {
   top: 0;
   left: 0;
 }
+div#home-container h1,
+div#home-container h2 {
+  text-shadow: 1px 1px 1px #000;
+}
 
 /*    RESUME       */
 /*—————————————————*/
