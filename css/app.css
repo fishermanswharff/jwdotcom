@@ -82,7 +82,8 @@ h1, h2, h3, h4, h5, h6 {
 h1.work-header { margin-left: 60px; position: relative; color: #00b3b7; }
 h1.work-header:before { 
   position: absolute;
-  left: -60px;
+  left: -50px;
+  top: 10px;
   content: '';
   width: 39px;
   height: 35px;
