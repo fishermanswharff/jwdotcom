@@ -60,8 +60,8 @@
           <div class="experience">
             <div class="professional">
               {{#each data.experience.professional}}
-                <h2>{{@key}}</h2>
-                <p><span>{{title}}</span><p>
+                <h2><a href="{{url}}">{{@key}}</a> <small>{{dates}}</small></h2>
+                <p><span class="job-title">{{title}}: </span>{{description}}<p>
               {{/each}}
             </div>
           </div>
