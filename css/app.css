@@ -23,6 +23,11 @@ nav ul li {
   list-style: none;
   display: inline-block;
 }
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  font-family: "ff-meta-web-pro";
+}
 
 div.skill {
   background: #fcfcfc;
