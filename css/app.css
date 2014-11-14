@@ -108,6 +108,7 @@ span.job-title {
 
 span.work-icon {
   width: 48px;
+  display: block;
 }
 
 
