@@ -73,7 +73,6 @@ nav ul li a:hover {
   font-weight: 700;
 }
 
-
 /*    RESUME       */
 /*—————————————————*/
 div.professional,
@@ -169,7 +168,7 @@ span.bottom-border:after {
 }
 
 span.contact-icon {
-  width: 32px;
+  width: 16px;
   display: inline-block;
 }
 
