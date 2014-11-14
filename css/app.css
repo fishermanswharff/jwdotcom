@@ -79,9 +79,9 @@ h1, h2, h3, h4, h5, h6 {
   /*font-weight: normal;*/
   /*font-weight: 400;*/
 }
+h1 { color: #00B3B7; }
 h1.work-header { 
   position: relative;
-  color: #00B3B7;
   padding-left: 60px;
 }
 h1.work-header:before { 
@@ -94,10 +94,13 @@ h1.work-header:before {
   left: 10px;
 
 }
-h1.edu-header {margin-left: 60px; position: relative; color: #00b3b7;}
+h1.edu-header {
+  position: relative;
+  padding-left: 60px;
+}
 h1.edu-header:before {
   position: absolute;
-  left: -60px;
+  left: 10px;
   top: 15px;
   content: '';
   width: 48px;
