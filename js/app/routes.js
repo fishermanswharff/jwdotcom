@@ -19,8 +19,7 @@ var Router = Backbone.Router.extend({
   projects: function(){
     $("nav").removeClass("active");
     $.getJSON('data/projects.json', function(json, textStatus) {
-      
-      var template = Handlebars.compile($("#projectsTemplate").html());
+      var template = Handlebars.templates.projects;
       $(".view").html(template({
         data: json
       }));
