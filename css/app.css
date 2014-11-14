@@ -94,8 +94,8 @@ div#home-container h2 {
 div#home-container h1#thatsme:after {
   position: absolute;
   content: '';
-  top: -40px;
-  right: -30px;
+  top: -30px;
+  right: -60px;
   width: 64px;
   height: 64px;
   background: url(../images/thatsme.png);
