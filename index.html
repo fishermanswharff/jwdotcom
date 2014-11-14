@@ -59,10 +59,10 @@
         <div class="skills">
           <div class="experience">
           </div>
-          <div class="technical-skils grid_8 alpha">
+          <div class="technical-skills grid_8 alpha">
             <h4>Technical Skills:</h4>
             {{#each data.skills.technical}}
-              <div>
+              <div class="skill">
                 <h5 class="{{@key}}">{{@key}}:</h5>
                 <h6>{{level}}</h6>
               </div>
@@ -71,7 +71,7 @@
           <div class="software-skills grid_8 omega">
             <h4>Software Skills:</h4>
             {{#each data.skills.software}}
-              <div>
+              <div class="skill">
                 <h5 class="{{@key}}">{{@key}}:</h5>
                 <h6>{{level}}</h6>
               </div>
