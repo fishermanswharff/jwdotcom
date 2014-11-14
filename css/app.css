@@ -84,6 +84,7 @@ h1.work-header {
   position: relative;
   padding-left: 60px;
   border-bottom: 10px solid;
+  border-image-source: url(../images/bottom-border.svg);
   border-image-slice: 33%;
   border-image-width: 10px;
   border-image-outset: 0;
