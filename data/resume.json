@@ -1,18 +1,10 @@
 {
   "skills": {
       "technical":{
-        "Ruby": {
-          "level": "I wrote fizzbuzz in 5 lines"
-        },
-        "Ruby on Rails": {
-          "level": "I can build api endpoints"
-        },
-        "Postgres": {
-          "level": "Relational Database—used in most of my rails projects"  
-        },
-        "Angular": {
-          "level":"I've written custom directives"
-        },
+        "Ruby": {"level": "I wrote fizzbuzz in 5 lines"},
+        "Ruby on Rails": {"level": "I can build api endpoints"},
+        "Postgres": {"level": "Relational Database—used in most of my rails projects"},
+        "Angular": {"level":"I've written custom directives"},
         "SQL": {"level":"I know enough to be dangerous"},
         "Javascript": {"level":"Object-oriented javascript used to build this website"},
         "Actionscript 3": {"level":"Contributed to rich, object-oriented internet application with Actionscript 3"},
