@@ -80,7 +80,24 @@
       }
     },
     "education": {
-      
+      "General Assembly": {
+        "program": "Web Development Immersive",
+        "dates": "Fall 2014",
+        "description": "Twelve weeks. All day. Every day.",
+        "url": "https://generalassemb.ly/education/web-development-immersive"
+      },
+      "School of the Museum of Fine Arts": {
+        "program": "Graphic Design Certificate",
+        "description": "The certificate program in Graphic Design provides you with the practical and theoretical skills of a design professional. Throughout the program, you will work alongside a team of faculty with extensive teaching experience and recognition in their field.",
+        "dates": "2008–2009",
+        "url": "http://www.smfa.edu/"
+      },
+      "Elon University": {
+        "program": "Bachelor of Art",
+        "description": "",
+        "dates": "1998–2002",
+        "url": "http://www.elon.edu/home/"
+      }
     }
   }
 }

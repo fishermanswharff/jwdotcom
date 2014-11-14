@@ -66,8 +66,8 @@
             {{/each}}
             {{#each data.experience.education}}
             <div class="education">
-              <h2><a href=""></a> <small></small></h2>
-              <p><span class="degree">: </span>{{description}}<p>
+              <h2><a href="{{url}}">{{@key}}</a> <small>{{dates}}</small></h2>
+              <p><span class="degree">{{program}}: </span>{{description}}<p>
             </div>
             {{/each}}
           </div>
