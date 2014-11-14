@@ -10,6 +10,4 @@ $(document).ready(function(){
   $("a#menu-icon").on("click",function(event){
     App.activateNavigation(event);
   });
-
-  
 });

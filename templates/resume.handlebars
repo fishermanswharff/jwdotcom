@@ -1,0 +1,45 @@
+<div class="skills container">
+  <div class="contact">
+    <ul class="contact-info">
+      {{#each data.contact}}
+      <li class="{{@key}}"><a href="{{url}}"><span class="contact-icon"><img src="{{icon}}"/></span>{{@key}}</a></li>
+      {{/each}}
+    </ul>
+  </div>
+  <div class="experience grid_16">
+    <h1 class="work-header">Work Experience:</h1>
+    <span class="bottom-border"></span>
+    {{#each data.experience.professional}}
+    <div class="professional">
+      <h2><a href="{{url}}">{{@key}}</a> <small>{{dates}}</small></h2>
+      <p><span class="job-title">{{title}}: </span>{{description}}<p>
+    </div>
+    {{/each}}
+    <h1 class="edu-header">Education:</h1>
+    <span class="bottom-border"></span>
+    {{#each data.experience.education}}
+    <div class="education">
+      <h2><a href="{{url}}">{{@key}}</a> <small>{{dates}}</small></h2>
+      <p><span class="degree">{{program}}: </span>{{description}}<p>
+    </div>
+    {{/each}}
+  </div>
+  <div class="technical-skills grid_16">
+    <h1>Technical Skill: <span class="normalize">Achievement Attained</span></h1>
+    <span class="bottom-border"></span>
+    {{#each data.skills.technical}}
+    <div class="skill">
+      <p class="{{@key}}"><span class="skillkey">{{@key}}: </span><span class="level">{{level}}</span></p>
+    </div>
+    {{/each}}
+  </div>
+  <div class="software-skills grid_16">
+    <h1>Software Skills:</h1>
+    <span class="bottom-border"></span>
+    {{#each data.skills.software}}
+    <div class="skill">
+      <p><img class="software-icon" src="{{icon}}"/><span class="skillkey">{{@key}}: </span><span class="level">{{level}}</span></p>
+    </div>
+    {{/each}}
+  </div>
+</div>
