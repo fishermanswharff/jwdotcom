@@ -58,12 +58,14 @@
     <script type="text/x-handlebars-template" id="resumeTemplate">
         <div class="skills">
           <div class="experience grid_16">
+            <h1>Work Experience:</h1>
             {{#each data.experience.professional}}
             <div class="professional">
               <h2><a href="{{url}}">{{@key}}</a> <small>{{dates}}</small></h2>
               <p><span class="job-title">{{title}}: </span>{{description}}<p>
             </div>
             {{/each}}
+            <h1>Education:</h1>
             {{#each data.experience.education}}
             <div class="education">
               <h2><a href="{{url}}">{{@key}}</a> <small>{{dates}}</small></h2>
