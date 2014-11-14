@@ -20,6 +20,10 @@ nav {
   background: rgba(255,255,255,0.9);
 }
 
+nav ul {
+  float: right;
+}
+
 nav ul li {
   list-style: none;
   display: inline-block;
@@ -30,6 +34,7 @@ nav ul li a {
   font-family: "ff-meta-web-pro";
   margin: 0 10px;
   font-size: 1.2em;
+  font-weight: ;
   font-color: #00b3b8;
 }
 
