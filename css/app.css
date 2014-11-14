@@ -83,12 +83,12 @@ h1 { color: #00B3B7; }
 h1.work-header { 
   position: relative;
   padding-left: 60px;
-  /*border-bottom: 10px;*/
-  border-bottom-image-source: url("../images/bottom-border.svg");
-  border-bottom-image-slice: 100%;
-  border-bottom-image-width: 10px;
-  border-bottom-image-outset: 0;
-  border-bottom-image-repeat: stretch;
+  border-bottom: 10px;
+  border-image-source: url("../images/bottom-border.svg");
+  border-image-slice: 100%;
+  border-image-width: 10px;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
 }
 h1.work-header:before { 
   position: absolute;
