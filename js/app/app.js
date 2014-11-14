@@ -4,9 +4,6 @@ var App = App || {};
 
 App.activateNavigation = function(e){
   $("nav").toggleClass("active");
-  $("nav").on('click','ul li a',function(){
-    $("nav").toggleClass("active");
-  })
 };
 
 $(document).ready(function(){
