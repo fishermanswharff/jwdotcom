@@ -59,6 +59,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
+h2 a {
+  text-decoration: none;
+  border-bottom: 3px dotted #00b3b8;
+}
+
 span.skillkey {
   font-weight: bold;
   font-size: 1.3em;
