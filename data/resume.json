@@ -106,7 +106,7 @@
       "icon": "images/phone.svg"
     },
     "Email": {
-      "url": "fishermanswharff@mac.com",
+      "url": "mailto:fishermanswharff@mac.com",
       "icon": "images/email.svg"
     },
     "Github": {
@@ -114,11 +114,11 @@
       "icon": "images/github.svg"
     },
     "Twitter": {
-      "url": "",
+      "url": "https://twitter.com/jasonwharff",
       "icon": "images/twitter.svg"
     },
     "LinkedIn": {
-      "url": "",
+      "url": "https://www.linkedin.com/in/jasonwharff",
       "icon": "images/linkedin.svg"
     }
   }
