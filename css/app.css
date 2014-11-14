@@ -43,6 +43,9 @@ div.skill {
   border-bottom: 1px dotted #cccccc;
 }
 
+div.skill img.software-icon {
+  max-width: 100px;
+}
 
 /*    TYPOGRAPHY   */
 /*—————————————————*/
