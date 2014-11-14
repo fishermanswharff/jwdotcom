@@ -83,6 +83,9 @@ h1 { color: #00B3B7; }
 h1.work-header { 
   position: relative;
   padding-left: 60px;
+  background-image: url(../images/bottom-border.svg);
+  background-position-y: 100%;
+  background-repeat: repeat-x;
 }
 h1.work-header:before { 
   position: absolute;
