@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
   /*font-weight: normal;*/
   /*font-weight: 400;*/
 }
-h1.work-header { margin-left: 60px; position: relative; }
+h1.work-header { margin-left: 60px; position: relative; color: #00b3b7; }
 h1.work-header:before { 
   position: absolute;
   left: -60px;
