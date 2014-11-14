@@ -40,6 +40,10 @@ nav#nav-toggle {
   width: 100%;
   z-index: 2;
   background-color: rgba(255,255,255,0.3);
+  -webkit-transition: all 0.25s ease 0s;
+  -moz-transition: all 0.25s ease 0s;
+  -o-transition: all 0.25s ease 0s;
+  transition: all 0.25s ease 0s;
 }
 nav#nav-toggle:hover {
   background-color: rgba(255,255,255,0.9); 
