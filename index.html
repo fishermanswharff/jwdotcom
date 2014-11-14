@@ -58,7 +58,11 @@
     <script type="text/x-handlebars-template" id="resumeTemplate">
         <div class="skills">
           <div class="experience">
-
+            <div class="professional">
+              {{#each data.experience.professional}}
+                <h2>{{@key}}</h2>
+              {{/each}}
+            </div>
           </div>
           <div class="technical-skills grid_16">
             <h2>Technical Skill: <span class="normalize">Achievement Attained</span></h2>
