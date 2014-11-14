@@ -77,7 +77,7 @@ nav ul li a:hover {
 /*—————————————————*/
 div#home-container {
   background: url(../images/home-bg1.jpg) no-repeat center center fixed;
-  width: 100%;
+  width: 100vh;
   height: 100vh;
   position: absolute;
   top: 0;
