@@ -88,11 +88,9 @@ div.skill img.software-icon {
 div.contact {
   text-align: center;
 }
-ul.contact-info { margin: 0 auto; }
-ul.contact-info li { list-style: none; display: inline-block; }
-ul.contact-info li a {
-  text-decoration: none;
-  border-bottom: 1px dotted;
+ul.contact-info { margin: 20px auto; }
+ul.contact-info li { margin: 0 10px; list-style: none; display: inline-block; }
+ul.contact-info li a { text-decoration: none; border-bottom: 1px dotted;
 }
 
 /*    TYPOGRAPHY   */
