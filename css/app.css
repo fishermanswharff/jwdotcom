@@ -83,6 +83,12 @@ h1 { color: #00B3B7; }
 h1.work-header { 
   position: relative;
   padding-left: 60px;
+  /*border-bottom: 10px;*/
+  -moz-border-bottom-image-source: url("../images/bottom-border.svg");
+  -moz-border-bottom-image-slice: 100%;
+  -moz-border-bottom-image-width: 10px;
+  -moz-border-bottom-image-outset: 0;
+  -moz-border-bottom-image-repeat: repeat;
 }
 h1.work-header:before { 
   position: absolute;
@@ -139,11 +145,6 @@ span.work-icon {
   display: block;
 }
 
-span.bottom-border {
-  width: 100%;
-  display: block;
-  height: 10px;
-}
 
 
 
