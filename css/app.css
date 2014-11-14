@@ -90,14 +90,14 @@ a.menu-icon.active .menu-icon__text {
   opacity: 0;
 }
 
-a.menu-icon.active .menu-icon__text:before {
+a.menu-icon.active .menu-icon__text::before {
   -webkit-transform: rotate(45deg) translate3d(5px,10px,0);
   -moz-transform: rotate(45deg) translate3d(5px,10px,0);
   -o-transform: rotate(45deg) translate3d(5px,10px,0);
   -ms-transform: rotate(45deg) translate3d(5px,10px,0);
   transform: rotate(45deg) translate3d(5px,10px,0);
 }
-a.menu-icon.active .menu-icon__text:after {
+a.menu-icon.active .menu-icon__text::after {
   -webkit-transform: rotate(-45deg) translate3d(5px,-10px,0);
   -moz-transform: rotate(-45deg) translate3d(5px,-10px,0);
   -o-transform: rotate(-45deg) translate3d(5px,-10px,0);
