@@ -26,7 +26,7 @@ nav {
 }
 
 nav.active {
-  
+  top: 0;
 }
 
 a#menu-icon {

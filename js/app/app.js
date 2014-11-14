@@ -3,7 +3,7 @@ function trace(){ for(var i = 0, count = arguments.length; i < count; i++){conso
 var App = App || {};
 
 App.activateNavigation = function(e){
-  trace("clicking menu icon");
+  $("nav").toggleClass("active");
 };
 
 $(document).ready(function(){
