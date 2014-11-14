@@ -84,7 +84,7 @@ h1.work-header {
   position: relative;
   padding-left: 60px;
   /*border-bottom: 10px;*/
-  border-image: url("../images/bottom-border.svg") 10 3 3 3 repeat stretch;
+  border-image: url("../images/bottom-border.svg") 10 3 3 repeat;
   /*-moz-border-bottom-image-slice: 100%;*/
   /*-moz-border-bottom-image-width: 10px;*/
   /*-moz-border-bottom-image-outset: 0;*/
