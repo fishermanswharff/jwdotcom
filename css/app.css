@@ -111,6 +111,9 @@ div#home-container h1#thatsme:after {
 div.contact-footer {
   text-align: center;
 }
+div.contact-footer ul.contact-info {
+  margin-top: 0px;
+}
 
 /*    RESUME       */
 /*—————————————————*/
