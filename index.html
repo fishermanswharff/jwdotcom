@@ -56,10 +56,35 @@
 
     <script type="text/x-handlebars-template" id="resumeTemplate">
       <h1>Resume Page</h1>
+        <div class="skills">
+          <div class="experience">
+
+          </div>
+          <div class="technical-skils">
+            <table>
+              <caption>table title and/or explanatory text</caption>
+              <thead>
+                <tr>
+                  <td>Language/Tech</td>
+                  <td>Level of Proficiency</td>
+                </tr>
+              </thead>
+              <tbody>
+                {{#each data.skills.technical}}
+                <tr>
+                  <td>{{@key}}</td>
+                  <td>{{this}}</td>
+                </tr>
+                {{/each}}
+              </tbody>
+            </table>
+          </div>
+          <div class="software-skills">
+            
+          </div>
+        </div>
         <h4>Technical Skills:</h4>
-        {{#each data.skills.technical}}
-          <h5>{{@key}}: <small>{{this}}</small></h5>
-        {{/each}}
+        
         <h4>Software Skills:</h4>
         {{#each data.skills.software}}
           <h5>{{@key}}: <small>{{this}}</small></h5>
