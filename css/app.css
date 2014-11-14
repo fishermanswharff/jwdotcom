@@ -96,7 +96,7 @@ div#home-container h2 {
   font-weight: normal;
   font-weight: 400;
   display: inline-block;
-  text-shadow: 0px 0px 2px #000;
+  /*text-shadow: 0px 0px 2px #000;*/
   color: #fff;
   position: relative;
 }
