@@ -84,10 +84,10 @@ h1.work-header {
   position: relative;
   padding-left: 60px;
   border-bottom: 10px;
-  -moz-border-bottom-image-slice: 100%;
-  -moz-border-bottom-image-width: 10px;
-  -moz-border-bottom-image-outset: 0;
-  -moz-border-bottom-image-repeat: repeat;
+  border-image-slice: 100%;
+  border-image-width: 10px;
+  border-image-outset: 0;
+  border-image-repeat: repeat;
 }
 h1.work-header:before { 
   position: absolute;
