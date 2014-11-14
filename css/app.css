@@ -12,7 +12,7 @@ body {
 
 /*      NAVBAR     */
 /*—————————————————*/
-nav {
+nav#main-nav-drop {
   position: fixed;
   top: -100%;
   left: 0;
@@ -29,14 +29,19 @@ nav {
   transition: all 0.25s ease 0s;
 }
 
-nav.active {
+nav#main-nav-drop.active {
   top: 0;
 }
 
-a.menu-icon {
+nav#nav-toggle {
   position: fixed;
-  top: 20px;
-  right: 100px;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+a.menu-icon {
+  float: right;
   display: block;
   width: 40px;
   -webkit-transform: translate3d(0,0,0);
