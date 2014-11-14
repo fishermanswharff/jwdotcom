@@ -86,7 +86,6 @@ div#home-container {
 }
 div#home-container h1,
 div#home-container h2 {
-  font-size: 1em;
   font-weight: normal;
   font-weight: 400;
   display: inline-block;
@@ -94,6 +93,7 @@ div#home-container h2 {
   color: #fff;
   position: relative;
 }
+
 div#home-container h1#thatsme:after {
   position: absolute;
   content: '';
