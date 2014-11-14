@@ -39,6 +39,8 @@ nav ul li a {
   font-weight: 700;
   font-color: #00b3b8;
 }
+div.professional,
+div.education,
 div.skill {
   border-bottom: 1px dotted #cccccc;
 }

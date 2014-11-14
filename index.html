@@ -56,41 +56,40 @@
     </script>
 
     <script type="text/x-handlebars-template" id="resumeTemplate">
-        <div class="skills">
-          <div class="experience grid_16">
-            <h1>Work Experience:</h1>
-            {{#each data.experience.professional}}
-            <div class="professional">
-              <h2><a href="{{url}}">{{@key}}</a> <small>{{dates}}</small></h2>
-              <p><span class="job-title">{{title}}: </span>{{description}}<p>
-            </div>
-            {{/each}}
-            <h1>Education:</h1>
-            {{#each data.experience.education}}
-            <div class="education">
-              <h2><a href="{{url}}">{{@key}}</a> <small>{{dates}}</small></h2>
-              <p><span class="degree">{{program}}: </span>{{description}}<p>
-            </div>
-            {{/each}}
+      <div class="skills">
+        <div class="experience grid_16">
+          <h1>Work Experience:</h1>
+          {{#each data.experience.professional}}
+          <div class="professional">
+            <h2><a href="{{url}}">{{@key}}</a> <small>{{dates}}</small></h2>
+            <p><span class="job-title">{{title}}: </span>{{description}}<p>
           </div>
-          <div class="technical-skills grid_16">
-            <h2>Technical Skill: <span class="normalize">Achievement Attained</span></h2>
-            {{#each data.skills.technical}}
-            <div class="skill">
-              <p class="{{@key}}"><span class="skillkey">{{@key}}: </span><span class="level">{{level}}</span></p>
-            </div>
-            {{/each}}
+          {{/each}}
+          <h1>Education:</h1>
+          {{#each data.experience.education}}
+          <div class="education">
+            <h2><a href="{{url}}">{{@key}}</a> <small>{{dates}}</small></h2>
+            <p><span class="degree">{{program}}: </span>{{description}}<p>
           </div>
-          <div class="software-skills grid_16">
-            <h2>Software Skills:</h2>
-            {{#each data.skills.software}}
-            <div class="skill">
-              <p><img class="software-icon" src="{{icon}}"/><span class="skillkey">{{@key}}: </span><span class="level">{{level}}</span></p>
-            </div>
-            {{/each}}
-          </div>
+          {{/each}}
         </div>
-
+        <div class="technical-skills grid_16">
+          <h2>Technical Skill: <span class="normalize">Achievement Attained</span></h2>
+          {{#each data.skills.technical}}
+          <div class="skill">
+            <p class="{{@key}}"><span class="skillkey">{{@key}}: </span><span class="level">{{level}}</span></p>
+          </div>
+          {{/each}}
+        </div>
+        <div class="software-skills grid_16">
+          <h2>Software Skills:</h2>
+          {{#each data.skills.software}}
+          <div class="skill">
+            <p><img class="software-icon" src="{{icon}}"/><span class="skillkey">{{@key}}: </span><span class="level">{{level}}</span></p>
+          </div>
+          {{/each}}
+        </div>
+      </div>
     </script>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
