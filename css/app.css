@@ -84,6 +84,10 @@ div#home-container {
   left: 0;
   padding: 60px;
 }
+div#home-container .greeting {
+  height: 100vh;
+}
+
 div#home-container h1,
 div#home-container h2 {
   font-weight: normal;
@@ -102,6 +106,10 @@ div#home-container h1#thatsme:after {
   width: 64px;
   height: 64px;
   background: url(../images/thatsme.png);
+}
+
+div.contact-footer {
+  text-align: center;
 }
 
 /*    RESUME       */
