@@ -1,7 +1,5 @@
-/*    TYPOGRAPHY   */
-/*—————————————————*/
-h1, h2, h3, h4, h5, h6 {
-  font-family: "ff-meta-web-pro", Helvetica, sans-serif;
+* {
+  box-sizing: border-box;
 }
 
 body {
@@ -9,6 +7,8 @@ body {
   margin-top: 60px;
 }
 
+/*      NAVBAR     */
+/*—————————————————*/
 nav {
   position: fixed;
   top: 0;
@@ -22,6 +22,7 @@ nav {
 
 nav ul {
   float: right;
+  margin-right: 50px;
 }
 
 nav ul li {
@@ -37,12 +38,17 @@ nav ul li a {
   font-weight: ;
   font-color: #00b3b8;
 }
-
 div.skill {
   padding: 10px 0;
   border-bottom: 1px dotted #cccccc;
 }
 
+
+/*    TYPOGRAPHY   */
+/*—————————————————*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: "ff-meta-web-pro", Helvetica, sans-serif;
+}
 span.skillkey {
   font-weight: bold;
   font-size: 1.3em;
