@@ -85,6 +85,10 @@ div.skill img.software-icon {
   max-width: 75px;
   margin-right: 20px;
 }
+div.contact {
+  text-align: center;
+}
+ul.contact-info { margin: 0 auto; }
 ul.contact-info li { list-style: none; display: inline-block; }
 ul.contact-info li a {
   text-decoration: none;
