@@ -54,8 +54,8 @@
     -->
     <script type="text/x-handlebars-template" id="homeTemplate">
       <div id="home-container">
-        {{#each data.greetings}}
-        <h1>{{section1.header}}</h1>
+        {{#each data.greetings.section1}}
+          <h1>{{header}}</h1>
         {{/each}}
       </div>
     </script>
