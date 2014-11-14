@@ -9,6 +9,5 @@ App.activateNavigation = function(e){
 $(document).ready(function(){
   $("a#menu-icon").on("click",function(event){
     App.activateNavigation(event);
-    $("nav").toggleClass("active");
   });
 });
