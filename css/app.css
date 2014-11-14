@@ -84,11 +84,11 @@ h1.work-header {
   position: relative;
   padding-left: 60px;
   /*border-bottom: 10px;*/
-  -moz-border-bottom-image-source: url("../images/bottom-border.svg");
-  -moz-border-bottom-image-slice: 100%;
-  -moz-border-bottom-image-width: 10px;
-  -moz-border-bottom-image-outset: 0;
-  -moz-border-bottom-image-repeat: repeat;
+  -moz-border-bottom-image: url("../images/bottom-border.svg") 25 30 10 20 repeat stretch;
+  /*-moz-border-bottom-image-slice: 100%;*/
+  /*-moz-border-bottom-image-width: 10px;*/
+  /*-moz-border-bottom-image-outset: 0;*/
+  /*-moz-border-bottom-image-repeat: repeat;*/
 }
 h1.work-header:before { 
   position: absolute;
