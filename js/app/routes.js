@@ -12,7 +12,6 @@ var Router = Backbone.Router.extend({
         data: json
       }));
     });
-
   },
 
   projects: function(){

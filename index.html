@@ -60,7 +60,9 @@
           <h5>{{@key}}: <small>{{this}}</small></h5>
         {{/each}}
         <h4>Software Skills:</h4>
-
+        {{#each data.skills.software}}
+          <h5>{{@key}}: <small>{{this}}</small></h5>
+        {{/each}}
     </script>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
