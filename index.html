@@ -30,7 +30,7 @@
       <li><a href="#/resume" title="resume"><span class="resume-button">Resume</span></a></li>
     </ul>
   </nav>
-  <section class="view">
+  <section class="view container">
     <header>
       
     </header>
@@ -55,31 +55,17 @@
     </script>
 
     <script type="text/x-handlebars-template" id="resumeTemplate">
-      <h1>Resume Page</h1>
         <div class="skills">
           <div class="experience">
 
           </div>
           <div class="technical-skils">
-            <table>
-              <thead>
-                <tr>
-                  <th colspan="2">Technical Skills</th>
-                </tr>
-                <tr>
-                  <td>Language/Tech</td>
-                  <td>Level of Proficiency</td>
-                </tr>
-              </thead>
-              <tbody>
-                {{#each data.skills.technical}}
-                <tr>
-                  <td>{{@key}}</td>
-                  <td>{{this}}</td>
-                </tr>
-                {{/each}}
-              </tbody>
-            </table>
+            <h4>Technical Skills:</h4>
+            {{#each data.skills.technical}}
+              <div>
+                <h5 class="{{@key}}">{{@key}}:</h5>
+                <h6>{{level}}</h6>
+              </div>
           </div>
           <div class="software-skills">
             <h4>Software Skills:</h4>
@@ -91,7 +77,7 @@
             {{/each}}
           </div>
         </div>
-        
+
     </script>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
