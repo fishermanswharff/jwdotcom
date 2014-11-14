@@ -110,7 +110,7 @@ div#home-container h1#thatsme:after {
   height: 64px;
   background: url(../images/thatsme.png);
 }
-div.contact-footer ul.contact-info { margin-top: 0px; }
+div.contact-footer ul.contact-info { margin-top: 30px; }
 div.contact-footer ul li a { border-bottom: none; }
 div.contact-footer ul li a span.contact-icon { width: 32px; }
 div.greeting p a.btn {
@@ -120,7 +120,6 @@ div.greeting p a.btn {
   color: white;
   font-family: "ff-meta-web-pro", sans-serif;
   padding: 5px 20px 8px;
-  margin-bottom: 30px;
   -webkit-transition: all 0.25s ease 0s;
   -moz-transition: all 0.25s ease 0s;
   -o-transition: all 0.25s ease 0s;
