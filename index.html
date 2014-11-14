@@ -87,9 +87,11 @@
         </div>
         <h4>Software Skills:</h4>
         {{#each data.skills.software}}
-          <h5 class="{{@key}}">{{@key}}:</h5>
-          <h6>{{level}}</h6>
-          <img src="{{icon}}"/>
+          <div>
+            <h5 class="{{@key}}">{{@key}}:</h5>
+            <img src="{{icon}}"/>
+            <h6>{{level}}</h6>
+          </div>
         {{/each}}
     </script>
 
