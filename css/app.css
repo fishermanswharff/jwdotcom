@@ -73,6 +73,12 @@ nav ul li a:hover {
   font-weight: 700;
 }
 
+/*  HOME PAGE   */
+/*—————————————————*/
+div#home-container {
+  background: url(../images/home-bg1.jpg) no-repeat center center fixed;
+}
+
 /*    RESUME       */
 /*—————————————————*/
 div.professional,
