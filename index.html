@@ -54,10 +54,14 @@
     -->
     <script type="text/x-handlebars-template" id="homeTemplate">
       <div id="home-container">
-        {{#each data.greetings}}
-          <h1>{{header}}</h1>
-          <h2>{{subheader}}</h2>
-        {{/each}}
+        <div class="container">
+          <div class="grid_16">
+            {{#each data.greetings}}
+              <h1>{{header}}</h1>
+              <h2>{{subheader}}</h2>
+            {{/each}}
+          </div>
+        </div>
       </div>
     </script>
 
