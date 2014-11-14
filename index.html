@@ -54,7 +54,9 @@
     -->
     <script type="text/x-handlebars-template" id="homeTemplate">
       <div id="home-container">
-        <h1>{{@key}}</h1>
+        {{#each data.section1}}
+        <h1>{{header}}</h1>
+        {{/each}}
       </div>
     </script>
 
