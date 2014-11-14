@@ -21,6 +21,12 @@ nav {
   background: rgba(255,255,255,0.9);
 }
 
+a#menu-icon {
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+
 nav ul {
   /*float: right;*/
   margin-right: 50px;
