@@ -3,28 +3,28 @@
     "project1": {
       "title": "Jason's Travelog",
       "description":"Blogging platform designed for travel photographers",
-      "image":"images/travelog-thumb.jpg",
+      "image":"images/projects/travelog-small.jpg",
       "tech": ["Ruby","Rails","AWS/S3","Javascript","jQuery","HTML5/CSS3","SASS"],
       "url":"https://github.com/fishermanswharff/TheBlog"
     },
     "project2": {
       "title": "Gator",
       "description":"Social and News aggregator",
-      "image":"images/gator-thumb.jpg",
+      "image":"images/projects/gator-small.jpg",
       "tech": ["Multi oAuth Providers","Ruby","Rails","Twitter API","LinkedIn API","Instagram API", "Facebook API","Javascript", "jQuery", "HTML5/CSS3","SASS"],
       "url":"https://github.com/fishermanswharff/Gator"
     },
     "project3": {
       "title": "Bob's Bagels",
       "description":"eCommerce Platform",
-      "image":"images/bagels-thumb.jpg",
+      "image":"images/projects/bagels-small.jpg",
       "tech": ["Ruby","Rails API","Javascript","Backbone.js","Handlebars.js","JSON","jQuery","HTML5/CSS3"],
       "url":"https://github.com/BobsBagels"
     },
     "project4": {
       "title": "Stages Learning",
       "description":"eCommmerce and Marketing Website Redesign",
-      "image":"images/stages-thumb.jpg",
+      "image":"images/projects/stages-small.jpg",
       "tech": ["HTML5/CSS3","Javascript","jQuery","Shopify Liquid","Hubspot Markup Language","Photoshop","Illustrator"],
       "url":"http://www.stageslearning.com/"
     }
