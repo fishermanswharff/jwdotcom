@@ -73,7 +73,6 @@ nav#nav-toggle {
   left: 0;
   width: 100%;
   z-index: 2;
-  /*background-color: rgba(255,255,255,0.3);*/
   -webkit-transition: all 0.25s ease 0s;
   -moz-transition: all 0.25s ease 0s;
   -o-transition: all 0.25s ease 0s;
@@ -97,8 +96,8 @@ a.menu-icon {
 a.menu-icon:before,
 a.menu-icon:after,
 .menu-icon__text {
-  background: #00B3B7;
-  color: #00B3B7;
+  background: #000000;
+  color: #000000;
   content: '';
   display: block;
   height: 4px;
@@ -118,7 +117,7 @@ a.menu-icon:after,
   top: 3px;
   padding-left: 50px;
   text-decoration: none;
-  color: #00B3B7;
+  color: #000000;
   font-family: "ff-tisa-web-pro";
   font-size: 1.1em;
   font-style: normal;
