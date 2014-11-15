@@ -34,7 +34,12 @@ App.checkBrowserSize = function(){
 };
 
 App.responsiveImage = function(){
+  var $thumbs = $('img.project-thumb');
   if(App.windowSize == 'large'){
+    $thumbs.each(function(index,thumb){
+      var source = $(this).attr("src");
+      debugger;
+    });
   }
   if(App.windowSize == 'medium'){
   }
