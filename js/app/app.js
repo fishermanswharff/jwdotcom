@@ -36,6 +36,12 @@ $(document).ready(function(){
     trace("not touch enabled");
   }
 
+  if (App.isIE){
+    App.windowWidth = $('body').width() + 33;
+  } else {
+    App.windowWidth = window.OuterWidth;
+  }
+  
   App.checkBrowserSize();
   setInterval('App.checkBrowserSize()',100);
 
