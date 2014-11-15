@@ -35,7 +35,7 @@ $(document).ready(function(){
   if (!Modernizr.touch){
     trace("not touch enabled");
   }
-
+  
   App.checkBrowserSize();
   setInterval('App.checkBrowserSize()',100);
 
