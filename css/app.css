@@ -216,6 +216,10 @@ div.projects {
   text-align: center;
 }
 
+div.project {
+  display: inline-block;
+}
+
 /*    RESUME       */
 /*—————————————————*/
 div.professional,
