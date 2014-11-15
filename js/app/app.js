@@ -13,7 +13,7 @@ App.activateNavigation = function(e){
 };
 
 App.checkBrowserSize = function(){
-  if(ieIE){
+  if(App.isIE){
     App.windowWidth = $('body').width() + 33;
   } else {
     App.windowWidth = window.OuterWidth;
