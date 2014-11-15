@@ -101,25 +101,25 @@
     }
   },
   "contact":{
-    "Phone": {
-      "url": "tel:+16173889520",
-      "icon": "images/phone.svg"
-    },
     "Email": {
       "url": "mailto:fishermanswharff@mac.com",
-      "icon": "images/email.svg"
+      "icon": "images/email-white.svg"
     },
     "Github": {
       "url": "https://github.com/fishermanswharff",
-      "icon": "images/github.svg"
+      "icon": "images/github-white.svg"
     },
     "Twitter": {
       "url": "https://twitter.com/jasonwharff",
-      "icon": "images/twitter.svg"
+      "icon": "images/twitter-white.svg"
     },
     "LinkedIn": {
       "url": "https://www.linkedin.com/in/jasonwharff",
-      "icon": "images/linkedin.svg"
+      "icon": "images/linkedin-white.svg"
+    },
+    "Instagram": {
+      "url": "http://instagram.com/jasonwharff",
+      "icon": "images/instagram-white.svg"
     }
   }
 }
