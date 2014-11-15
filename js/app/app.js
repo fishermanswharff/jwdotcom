@@ -38,13 +38,23 @@ App.responsiveImage = function(){
   if(App.windowSize == 'large'){
     $thumbs.each(function(index,thumb){
       var source = $(this).attr("src");
-      source.replace(/small/gi, 'medium');
+      source = source.replace(/small/gi, 'medium');
       $(thumb).attr("src",source);
     });
   }
   if(App.windowSize == 'medium'){
+    $thumbs.each(function(index,thumb){
+      var source = $(this).attr("src");
+      source = source.replace(/small/gi, 'medium');
+      $(thumb).attr("src",source);
+    });
   }
   if(App.windowSize == 'small'){
+    $thumbs.each(function(index,thumb){
+      var source = $(this).attr("src");
+      source = source.replace(/medium/gi, 'small');
+      $(thumb).attr("src",source);
+    });
   }
 }
 
