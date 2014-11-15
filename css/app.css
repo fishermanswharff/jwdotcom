@@ -159,7 +159,7 @@ div#home-container div.greeting {
   position: relative;
   top: 25%;
   text-align: center;
-  background: rgba(0,0,0,0.8);
+  background: rgba(0,0,0,0.5);
 }
 div.greeting p {
   color: white;
