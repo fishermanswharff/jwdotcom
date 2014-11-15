@@ -19,7 +19,10 @@ App.checkBrowserSize = function(){
     App.windowWidth = window.outerWidth;
   }
 
-  // trace(App.windowSize, App.windowWidth, App.actualSize, App.firstRun, App.isIE);
+  var contentWidth = $('body').width();
+  var sizeDiff = App.windowWidth - contentWidth;
+  App.actualSize = App.windowWidth - sizeDiff;
+
 };
 
 App.responsiveImage = function(size){
@@ -34,12 +37,6 @@ $(document).ready(function(){
 
   if (!Modernizr.touch){
     trace("not touch enabled");
-  }
-
-  if (App.isIE){
-    App.windowWidth = $('body').width() + 33;
-  } else {
-    App.windowWidth = window.OuterWidth;
   }
 
   App.checkBrowserSize();
