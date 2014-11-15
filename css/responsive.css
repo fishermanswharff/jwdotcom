@@ -1,6 +1,15 @@
 /*   PHONE TO TABLET  */
 @media all and (max-width: 767px) {
   
+  nav#nav-toggle { background-color: rgba(255,255,255,0.9); }
+  .display_text {
+    display:none;
+  }
+
+
+
+
+
   /*  HOME PAGE   */
   /*—————————————————*/
   div#home-container {}
