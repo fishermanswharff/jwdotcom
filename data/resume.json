@@ -13,7 +13,7 @@
       "HTML5": {"level":"Used to build this website"},
       "Git": {"level":"Used to version control this website, with webhooks"},
       "Github": {"level":"Used to store versions of this website"},
-      "SVN": {"level":"Experience managing and teaching SVN on small to medium projects with SVN"},
+      "SVN": {"level":"Experience managing and teaching SVN on small to medium projects"},
       "LESS": {"level":"Written my own mixins"},
       "SASS": {"level":"Written my own mixins"},
       "XML": {"level":"Can use xml namespaces"},
