@@ -6,7 +6,7 @@ templates['home'] = template({"1":function(depth0,helpers,partials,data) {
     + escapeExpression(((helper = (helper = helpers.header || (depth0 != null ? depth0.header : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"header","hash":{},"data":data}) : helper)))
     + "</h1>\n      <p>"
     + escapeExpression(((helper = (helper = helpers.description || (depth0 != null ? depth0.description : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"description","hash":{},"data":data}) : helper)))
-    + "</p>\n      <p><a href=\"#/projects\" class=\"btn\">"
+    + "</p>\n      <p class=\"cta\"><a href=\"#/projects\" class=\"btn\">"
     + escapeExpression(((helper = (helper = helpers.cta || (depth0 != null ? depth0.cta : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"cta","hash":{},"data":data}) : helper)))
     + "</a></p>\n";
 },"3":function(depth0,helpers,partials,data) {
