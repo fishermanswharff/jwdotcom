@@ -11,4 +11,8 @@ $(document).ready(function(){
     App.activateNavigation(event);
     $(this).toggleClass("active");
   });
+
+  if (!Modernizr.touch){
+    trace("not touch enabled");
+  }
 });
