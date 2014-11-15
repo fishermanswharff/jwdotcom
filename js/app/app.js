@@ -5,7 +5,7 @@ var App = {
   windowWidth: 0,
   actualSize: 0,
   firstRun: false,
-  isIE: false
+  isIE: false,
 };
 
 App.activateNavigation = function(e){
@@ -22,11 +22,19 @@ App.checkBrowserSize = function(){
   var contentWidth = $('body').width();
   var sizeDiff = App.windowWidth - contentWidth;
   App.actualSize = App.windowWidth - sizeDiff;
-  
+
+  if(App.actualSize > 1024){ newWindowSize = 'large'; }
+  if(App.actualSize <= 1024 && App.actualSize >= 768){ newWindowSize = 'medium'; }
+  if(App.actualSize < 768){ newWindowSize = 'small'}
+
+  if(App.windowSize != newWindowSize){
+    App.windowSize = newWindowSize;
+  }
+  App.responsiveImage(App.windowSize);
 };
 
 App.responsiveImage = function(size){
-
+  trace(size);
 }
 
 $(document).ready(function(){
