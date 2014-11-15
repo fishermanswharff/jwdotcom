@@ -62,7 +62,6 @@ nav ul li a:hover {
   font-weight: bold;
   font-weight: 700;
 }
-
 nav#nav-toggle {
   position: fixed;
   top: 0;
@@ -305,6 +304,10 @@ span.contact-icon {
 
 
 
-
+/*   PHONE TO TABLET  */
+@media (max-width: 768px) {
+  h1#thatsme { font-size: 1.4em; } 
+  div.greeting { padding: 10px; }
+}
 
 
