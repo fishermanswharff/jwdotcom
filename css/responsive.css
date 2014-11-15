@@ -19,7 +19,7 @@
   /*  PROJECTS PAGE*/
   /*—————————————————*/
   div.projects { padding: 60px 10px; }
-  div.project { width: 100%; position: relative; }
+  div.project { width: 100%; position: relative; margin: 20px auto; }
   div.project ul { list-style: none; margin: 0; padding: 0; }
   div.project ul li { 
     display: inline-block;
@@ -28,6 +28,7 @@
     border-radius: 4px;
     color: white;
     margin: 5px;
+    font-size: .7em;
   }
   div.project h1 {
     position: absolute;
