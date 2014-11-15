@@ -209,6 +209,12 @@ div.greeting p a.btn:hover {
   border-color: #00B3B7;
 }
 
+/*  PROJECTS  */
+/*—————————————————*/
+section.projects {
+  padding: 30px 10px;
+}
+
 /*    RESUME       */
 /*—————————————————*/
 div.professional,
