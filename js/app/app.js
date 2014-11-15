@@ -35,10 +35,11 @@ App.checkBrowserSize = function(){
 
 App.responsiveImage = function(){
   var $thumbs = $('img.project-thumb');
+  var newSource = 'images/projects/'
   if(App.windowSize == 'large'){
     $thumbs.each(function(index,thumb){
       var source = $(this).attr("src");
-      debugger;
+      source.replace(/(small)/, 'medium');
     });
   }
   if(App.windowSize == 'medium'){
