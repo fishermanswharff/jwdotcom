@@ -305,7 +305,7 @@ span.contact-icon {
 /*   PHONE TO TABLET  */
 @media (max-width: 768px) {
   h1#thatsme { font-size: 1.4em; } 
-  div.greeting { padding: 0; }
+  div.greeting { padding: 10px; }
 }
 
 
