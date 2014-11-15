@@ -26,6 +26,10 @@
     "LinkedIn": {
       "url": "https://www.linkedin.com/in/jasonwharff",
       "icon": "images/linkedin-white.svg"
+    },
+    "Instagram": {
+      "url": "http://instagram.com/jasonwharff",
+      "icon": "images/instagram-white.svg",
     }
   }
 }
