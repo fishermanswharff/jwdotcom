@@ -103,23 +103,23 @@
   "contact":{
     "Email": {
       "url": "mailto:fishermanswharff@mac.com",
-      "icon": "images/email-white.svg"
+      "icon": "images/email.svg"
     },
     "Github": {
       "url": "https://github.com/fishermanswharff",
-      "icon": "images/github-white.svg"
+      "icon": "images/github.svg"
     },
     "Twitter": {
       "url": "https://twitter.com/jasonwharff",
-      "icon": "images/twitter-white.svg"
+      "icon": "images/twitter.svg"
     },
     "LinkedIn": {
       "url": "https://www.linkedin.com/in/jasonwharff",
-      "icon": "images/linkedin-white.svg"
+      "icon": "images/linkedin.svg"
     },
     "Instagram": {
       "url": "http://instagram.com/jasonwharff",
-      "icon": "images/instagram-white.svg"
+      "icon": "images/instagram.svg"
     }
   }
 }

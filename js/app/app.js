@@ -22,7 +22,7 @@ App.checkBrowserSize = function(){
   var contentWidth = $('body').width();
   var sizeDiff = App.windowWidth - contentWidth;
   App.actualSize = App.windowWidth - sizeDiff;
-
+  
 };
 
 App.responsiveImage = function(size){
