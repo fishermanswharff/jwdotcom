@@ -31,8 +31,9 @@
     padding: 10px 10px 12px 20px;
     background: rgba(0,179,189,0.7);
     top: 127px;
-    color: black;
+    color: white;
     font-size: 1.7em;
     font-weight: 400;
+    text-shadow: 0 0 2px #666;
   }
 }
