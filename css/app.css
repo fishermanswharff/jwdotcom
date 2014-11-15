@@ -197,6 +197,7 @@ div.greeting p a.btn {
   color: white;
   font-family: "ff-meta-web-pro", sans-serif;
   padding: 5px 20px 8px;
+  margin: 20px auto;
   -webkit-transition: all 0.25s ease 0s;
   -moz-transition: all 0.25s ease 0s;
   -o-transition: all 0.25s ease 0s;
