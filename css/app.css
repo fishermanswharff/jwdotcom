@@ -10,7 +10,7 @@ body {
   font-size: 1.3em;
 }
 
-/*      NAVBAR     */
+/*  NAV DROPDOWN   */
 /*—————————————————*/
 nav#main-nav-drop {
   position: fixed;
@@ -33,8 +33,9 @@ nav#main-nav-drop.active {
   top: 0;
 }
 
-nav ul {
+nav ul.nav {
   margin: 60px auto;
+  padding: 0;
 }
 
 nav ul li {
@@ -306,6 +307,7 @@ span.contact-icon {
 @media (max-width: 768px) {
   h1#thatsme { font-size: 1.4em; } 
   div.greeting { padding: 10px; }
+  ul.nav li a { font-size: 2em ; }
 }
 
 
