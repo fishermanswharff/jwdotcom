@@ -161,7 +161,9 @@ div#home-container div.greeting {
   text-align: center;
   background: rgba(0,0,0,0.8);
 }
-
+div.greeting p {
+  color: white;
+}
 div.greeting h1,
 div.greeting h2 {
   font-weight: normal;
