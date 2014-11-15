@@ -7,10 +7,6 @@
     }
   },
   "contact":{
-    "Phone": {
-      "url": "tel:+16173889520",
-      "icon": "images/phone-white.svg"
-    },
     "Email": {
       "url": "mailto:fishermanswharff@mac.com",
       "icon": "images/email-white.svg"
