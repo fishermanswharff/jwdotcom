@@ -9,20 +9,20 @@
     "project2": {
       "title": "Gator",
       "description":"Social and News aggregator",
-      "tech": ["Multi oAuth Providers","Ruby","Rails","Twitter API","LinkedIn API","Instagram API", "Facebook API"],
-      "url":""
+      "tech": ["Multi oAuth Providers","Ruby","Rails","Twitter API","LinkedIn API","Instagram API", "Facebook API","Javascript", "jQuery", "HTML5/CSS3","SASS"],
+      "url":"https://github.com/fishermanswharff/Gator"
     },
     "project3": {
       "title": "Bob's Bagels",
-      "description":"",
-      "tech": ["","","","",""],
-      "url":""
+      "description":"eCommerce Platform",
+      "tech": ["Ruby","Rails API","Javascript","JSON","jQuery","HTML5/CSS3"],
+      "url":"https://github.com/BobsBagels"
     },
     "project4": {
       "title": "Stages Learning",
-      "description":"",
-      "tech": ["","","","",""],
-      "url":""
+      "description":"eCommmerce and Marketing Website Redesign",
+      "tech": ["HTML5/CSS3","Javascript","jQuery","Shopify Liquid","Hubspot Markup Language","Photoshop","Illustrator"],
+      "url":"http://www.stageslearning.com/"
     }
   }
 }
