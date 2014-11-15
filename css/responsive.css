@@ -2,5 +2,5 @@
 @media all and (max-width: 767px) {
   h1#thatsme { font-size: 1.4em; } 
   div.greeting { padding: 10px; }
-  ul.nav li a { font-size: 2emfont-size: 2em; }
+  ul.nav li a { font-size: 2em }
 }
