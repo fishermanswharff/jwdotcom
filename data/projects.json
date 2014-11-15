@@ -18,7 +18,7 @@
       "title": "Bob's Bagels",
       "description":"eCommerce Platform",
       "image":"images/bagels-thumb.jpg",
-      "tech": ["Ruby","Rails API","Javascript","JSON","jQuery","HTML5/CSS3"],
+      "tech": ["Ruby","Rails API","Javascript","Backbone.js","Handlebars.js","JSON","jQuery","HTML5/CSS3"],
       "url":"https://github.com/BobsBagels"
     },
     "project4": {
