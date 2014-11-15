@@ -1,24 +1,24 @@
 {
   "projects": {
-    "project": {
+    "project1": {
       "title": "Jason's Travelog",
       "description":"Blogging platform to feature photography",
       "tech": ["Ruby","Rails","AWS/S3","Javascript","jQuery","HTML5/CSS3","SASS"],
       "url":"https://github.com/fishermanswharff/TheBlog"
     },
-    "project": {
+    "project2": {
       "title": "Gator",
       "description":"Social and News aggregator",
       "tech": ["Multi oAuth Providers","Ruby","Rails","Twitter API","LinkedIn API","Instagram API", "Facebook API"],
       "url":""
     },
-    "project": {
+    "project3": {
       "title": "Bob's Bagels",
       "description":"",
       "tech": ["","","","",""],
       "url":""
     },
-    "project": {
+    "project4": {
       "title": "Stages Learning",
       "description":"",
       "tech": ["","","","",""],
