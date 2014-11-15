@@ -211,7 +211,7 @@ div.greeting p a.btn:hover {
 
 /*  PROJECTS  */
 /*—————————————————*/
-section.projects {
+div.projects {
   padding: 30px 10px;
   text-align: center;
 }
