@@ -40,6 +40,7 @@ App.responsiveImage = function(){
     $thumbs.each(function(index,thumb){
       var source = $(this).attr("src");
       source.replace(/(small)/, 'medium');
+      debugger;
       $(thumb).attr("src",source);
     });
   }
