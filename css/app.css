@@ -187,7 +187,7 @@ div#home-container h1#thatsme:after {
   background: url(../images/thatsme.png);
 }
 div.contact-footer h3 { margin: 10px auto;}
-div.contact-footer ul.contact-info { margin: 0 auto; }
+div.contact-footer ul.contact-info { margin: 0 auto 20px; }
 div.contact-footer ul li a { border-bottom: none; }
 div.contact-footer ul li a span.contact-icon { width: 32px; }
 div.greeting p.cta { display: inline-block; margin: 20px auto; }
