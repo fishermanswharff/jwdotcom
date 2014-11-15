@@ -3,9 +3,9 @@ function trace(){ for(var i = 0, count = arguments.length; i < count; i++){conso
 var App = {
   windowSize: '',
   windowWidth: 0,
-  actualSize = 0,
-  firstRun = false,
-  isIE = false
+  actualSize: 0,
+  firstRun: false,
+  isIE: false
 };
 
 App.activateNavigation = function(e){
@@ -18,12 +18,12 @@ App.checkBrowserSize = function(){
   } else {
     App.windowWidth = window.OuterWidth;
   }
-  
+
   trace(App.windowSize, App.windowWidth, App.actualSize, App.firstRun, App.isIE);
 };
 
 App.responsiveImage = function(size){
-  
+
 }
 
 $(document).ready(function(){
@@ -35,7 +35,7 @@ $(document).ready(function(){
   if (!Modernizr.touch){
     trace("not touch enabled");
   }
-  
+
   App.checkBrowserSize();
   setInterval('App.checkBrowserSize()',100);
 
