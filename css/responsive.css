@@ -9,7 +9,7 @@
   /*—————————————————*/
   div#home-container {}
   div#home-container div.greeting { padding: 10px; position: relative; top: 25%; }
-  div.greeting h1 { font-size: 2em; margin-bottom: 20px; }
+  div.greeting h1 { font-size: 2em; }
   div#home-container h1#thatsme:after {
     top: -50px;
     right: -60px;
