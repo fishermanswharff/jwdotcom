@@ -16,7 +16,7 @@ App.checkBrowserSize = function(){
   if(App.isIE){
     App.windowWidth = $('body').width() + 33;
   } else {
-    App.windowWidth = window.OuterWidth;
+    App.windowWidth = window.outerWidth;
   }
 
   // trace(App.windowSize, App.windowWidth, App.actualSize, App.firstRun, App.isIE);
@@ -41,7 +41,7 @@ $(document).ready(function(){
   } else {
     App.windowWidth = window.OuterWidth;
   }
-  
+
   App.checkBrowserSize();
   setInterval('App.checkBrowserSize()',100);
 
