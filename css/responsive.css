@@ -1,7 +1,7 @@
 /*   PHONE TO TABLET  */
 @media all and (max-width: 767px) {
   
-  nav#nav-toggle { background-color: rgba(255,255,255,0.9); }
+  nav#nav-toggle { background: none; }
   a.menu-icon { margin-right: 10px; }
   .display_text { display:none; }
 
