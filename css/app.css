@@ -158,6 +158,7 @@ div#home-container div.greeting {
   padding: 40px;
   position: relative;
   top: 25%;
+  text-align: center;
 }
 
 div.greeting h1,
