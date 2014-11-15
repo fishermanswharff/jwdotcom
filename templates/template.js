@@ -41,7 +41,7 @@ templates['projects'] = template({"1":function(depth0,helpers,partials,data) {
     + "</p>\n      <ul>\n";
   stack1 = helpers.each.call(depth0, (depth0 != null ? depth0.tech : depth0), {"name":"each","hash":{},"fn":this.program(2, data),"inverse":this.noop,"data":data});
   if (stack1 != null) { buffer += stack1; }
-  return buffer + "      </ul>\n      <a href=\""
+  return buffer + "      </ul>\n      <a class=\"btn cta\" href=\""
     + escapeExpression(((helper = (helper = helpers.url || (depth0 != null ? depth0.url : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"url","hash":{},"data":data}) : helper)))
     + "\" title=\""
     + escapeExpression(((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"title","hash":{},"data":data}) : helper)))
