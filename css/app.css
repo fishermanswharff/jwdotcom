@@ -211,9 +211,45 @@ div.greeting p a.btn:hover {
 
 /*  PROJECTS  */
 /*—————————————————*/
-div.projects {
-  width: 100%;
-  padding: 30px 10px;
+div.projects { padding: 60px 10px; }
+div.project { 
+  width: 100%; 
+  position: relative; 
+  margin: 10px auto 50px; 
+  text-align: center; 
+  border-bottom: 1px dotted #00b3b7;
+  padding-bottom: 30px;
+}
+div.project img.project-thumb { width: 100%; }
+div.project p { font-size: 0.8em; margin: 0.6em;}
+div.project ul { list-style: none; margin: 0 0 20px; padding: 0; }
+div.project ul li { 
+  display: inline-block;
+  padding: 5px 7px 8px 7px;
+  background-color: #00b3b7;
+  border-radius: 4px;
+  color: white;
+  font-size: .5em;
+}
+div.project h1 {
+  position: absolute;
+  left: -10px;
+  padding: 10px 10px 12px 20px;
+  background: rgba(0,179,189,0.8);
+  top: 70px;
+  color: white;
+  font-size: 1.4em;
+  font-weight: 400;
+  text-shadow: 0 0 2px #666;
+}
+div.project a.btn.cta { 
+  text-decoration: none;
+  background: #217bc1;
+  border-radius: 4px;
+  border: 1px solid #217bc1;
+  color: #fff;
+  font-family: "ff-meta-web-pro", sans-serif;
+  padding: 5px 10px 8px;
 }
 
 
