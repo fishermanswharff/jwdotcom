@@ -14,7 +14,7 @@
     top: -50px;
     right: -60px;
   }
-  div.contact-footer ul.contact-info { margin-top: 30px; }
+  div.contact-footer ul.contact-info { margin: 0 auto; }
   div.contact-footer ul li a span.contact-icon { width: 24px; }
   ul.nav li a { font-size: 2em; }
 }
