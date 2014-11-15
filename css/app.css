@@ -186,7 +186,7 @@ div#home-container h1#thatsme:after {
   height: 64px;
   background: url(../images/thatsme.png);
 }
-div.contact-footer h3 { margin: 0 auto;}
+div.contact-footer h3 { margin: 10px auto;}
 div.contact-footer ul.contact-info { margin: 0 auto; }
 div.contact-footer ul li a { border-bottom: none; }
 div.contact-footer ul li a span.contact-icon { width: 32px; }
