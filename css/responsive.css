@@ -2,7 +2,7 @@
 @media all and (max-width: 767px) {
   
   nav#nav-toggle { background: none; }
-  a.menu-icon { margin-right: 10px; color: white; }
+  a.menu-icon { margin-right: 10px; }
   .display_text { display:none; }
 
   /*  HOME PAGE   */

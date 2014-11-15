@@ -10,7 +10,6 @@ var Router = Backbone.Router.extend({
     $("a.menu-icon").removeClass("active");
     $.getJSON('data/greeting.json', function(json, textStatus) {
       var template = Handlebars.templates.home;
-      // var template = Handlebars.compile($("#homeTemplate").html());
       $(".view").html(template({
         data: json
       }));
@@ -33,7 +32,6 @@ var Router = Backbone.Router.extend({
     $("a.menu-icon").removeClass("active");
     $.getJSON('data/resume.json', function(json, textStatus) {
       var template = Handlebars.templates.resume;
-      // var template = Handlebars.compile($("#resumeTemplate").html());
       $(".view").html(template({
         data: json
       }));
