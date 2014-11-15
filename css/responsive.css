@@ -21,7 +21,7 @@
   div.projects { padding: 60px 10px; }
   div.project { width: 100%; position: relative; }
   div.project ul { list-style: none; }
-  div.proejct ul li { 
+  div.project ul li { 
     display: inline-block;
     padding: 5px 10px 8px 10px;
     background-color: #00b3b7;
