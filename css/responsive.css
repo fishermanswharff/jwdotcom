@@ -23,5 +23,16 @@
   }
   div.project {
     width: 100%;
+    position: relative;
+  }
+  h1 {
+    position: absolute;
+    left: -10px;
+    padding: 10px 10px 12px 20px;
+    background: rgba(0,179,189,0.7);
+    top: 127px;
+    color: black;
+    font-size: 1.7em;
+    font-weight: 400;
   }
 }
