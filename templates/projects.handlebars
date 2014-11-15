@@ -2,6 +2,11 @@
   {{#each data.projects}}
     <div class="project">
       <h1>{{title}}</h1>
+      <ul>
+        {{#each tech}}
+        <li>{{this}}</li>
+        {{/each}}
+      </ul>
     </div>
   {{/each}}  
 </section>
