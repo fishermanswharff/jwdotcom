@@ -30,11 +30,16 @@ App.checkBrowserSize = function(){
   if(App.windowSize != newWindowSize){
     App.windowSize = newWindowSize;
   }
-  App.responsiveImage(App.windowSize);
+  // App.responsiveImage(App.windowSize);
 };
 
-App.responsiveImage = function(size){
-  trace(size);
+App.responsiveImage = function(){
+  if(App.windowSize == 'large'){
+  }
+  if(App.windowSize == 'medium'){
+  }
+  if(App.windowSize == 'small'){
+  }
 }
 
 $(document).ready(function(){

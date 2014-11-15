@@ -24,6 +24,7 @@ var Router = Backbone.Router.extend({
       $(".view").html(template({
         data: json
       }));
+      debugger;
     });
   },
 
