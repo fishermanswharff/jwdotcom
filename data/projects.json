@@ -2,7 +2,7 @@
   "projects": {
     "project1": {
       "title": "Jason's Travelog",
-      "description":"Blogging platform to feature photography",
+      "description":"Blogging platform designed for travel photographers",
       "image":"images/travelog-thumb.jpg",
       "tech": ["Ruby","Rails","AWS/S3","Javascript","jQuery","HTML5/CSS3","SASS"],
       "url":"https://github.com/fishermanswharff/TheBlog"
