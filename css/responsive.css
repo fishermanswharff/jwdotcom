@@ -15,4 +15,13 @@
   }
   div.contact-footer ul li a span.contact-icon { width: 24px; }
   ul.nav li a { font-size: 2em; }
+
+  /*  PROJECTS PAGE*/
+  /*—————————————————*/
+  div.projects {
+    padding: 60px 10px;
+  }
+  div.project {
+    width: 100%;
+  }
 }

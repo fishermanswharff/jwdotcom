@@ -212,13 +212,11 @@ div.greeting p a.btn:hover {
 /*  PROJECTS  */
 /*—————————————————*/
 div.projects {
+  width: 100%;
   padding: 30px 10px;
   text-align: center;
 }
 
-div.project {
-  display: inline-block;
-}
 
 /*    RESUME       */
 /*—————————————————*/
