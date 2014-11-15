@@ -168,7 +168,8 @@ div.greeting p {
   color: white;
 }
 div.greeting h1,
-div.greeting h2 {
+div.greeting h2,
+div.greeting h3 {
   font-weight: normal;
   font-weight: 400;
   display: inline-block;
