@@ -19,7 +19,7 @@ App.checkBrowserSize = function(){
     App.windowWidth = window.OuterWidth;
   }
 
-  trace(App.windowSize, App.windowWidth, App.actualSize, App.firstRun, App.isIE);
+  // trace(App.windowSize, App.windowWidth, App.actualSize, App.firstRun, App.isIE);
 };
 
 App.responsiveImage = function(size){
