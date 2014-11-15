@@ -2,7 +2,7 @@ function trace(){ for(var i = 0, count = arguments.length; i < count; i++){conso
 
 var App = {
   windowSize: '',
-  App.windowWidth = 0;
+  windowWidth = 0;
   actualSize: 0,
   firstRun: false,
   isIE: false
