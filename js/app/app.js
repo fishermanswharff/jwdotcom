@@ -30,7 +30,7 @@ App.checkBrowserSize = function(){
   if(App.windowSize != newWindowSize){
     App.windowSize = newWindowSize;
   }
-  App.responsiveImage(App.windowSize);
+  App.responsiveImage();
 };
 
 App.responsiveImage = function(){
