@@ -1,10 +1,31 @@
 function trace(){ for(var i = 0, count = arguments.length; i < count; i++){console.log(arguments[i]);}};
 
-var App = App || {};
+var App = App || {
+
+  windowSize: '',
+  windowWidth: 0,
+  actualSize = 0,
+  firstRun = false,
+  isIE = false
+};
 
 App.activateNavigation = function(e){
   $("nav#main-nav-drop").toggleClass("active");
 };
+
+App.checkBrowserSize = function(){
+  if(ieIE){
+    App.windowWidth = $('body').width() + 33;
+  } else {
+    App.windowWidth = window.OuterWidth;
+  }
+  
+  trace(App.windowSize, App.windowWidth, App.actualSize, App.firstRun, App.isIE);
+};
+
+App.responsiveImage = function(size){
+
+}
 
 $(document).ready(function(){
   $("a#menu-button").on("click",function(event){
@@ -15,4 +36,8 @@ $(document).ready(function(){
   if (!Modernizr.touch){
     trace("not touch enabled");
   }
+
+  App.checkBrowserSize();
+  setInterval('App.checkBrowserSize()',100);
+
 });
