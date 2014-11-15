@@ -22,7 +22,7 @@ templates['home'] = template({"1":function(depth0,helpers,partials,data) {
   var stack1, buffer = "<div id=\"home-container\">\n  <div class=\"greeting\">\n";
   stack1 = helpers.each.call(depth0, ((stack1 = (depth0 != null ? depth0.data : depth0)) != null ? stack1.greetings : stack1), {"name":"each","hash":{},"fn":this.program(1, data),"inverse":this.noop,"data":data});
   if (stack1 != null) { buffer += stack1; }
-  buffer += "    <div class=\"contact-footer\">\n      <ul class=\"contact-info\">\n";
+  buffer += "    <div class=\"contact-footer\">\n      <h3>Me on the interwebs:</h3>\n      <ul class=\"contact-info\">\n";
   stack1 = helpers.each.call(depth0, ((stack1 = (depth0 != null ? depth0.data : depth0)) != null ? stack1.contact : stack1), {"name":"each","hash":{},"fn":this.program(3, data),"inverse":this.noop,"data":data});
   if (stack1 != null) { buffer += stack1; }
   return buffer + "      </ul>\n    </div>\n  </div>\n</div>";
