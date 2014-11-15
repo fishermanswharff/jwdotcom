@@ -1,7 +1,6 @@
 function trace(){ for(var i = 0, count = arguments.length; i < count; i++){console.log(arguments[i]);}};
 
-var App = App || {
-
+var App = {
   windowSize: '',
   windowWidth: 0,
   actualSize = 0,
@@ -24,7 +23,7 @@ App.checkBrowserSize = function(){
 };
 
 App.responsiveImage = function(size){
-
+  
 }
 
 $(document).ready(function(){
