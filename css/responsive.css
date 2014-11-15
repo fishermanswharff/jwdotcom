@@ -8,7 +8,7 @@
   /*  HOME PAGE   */
   /*—————————————————*/
   div#home-container {}
-  div#home-container div.greeting { padding: 10px; position: relative; top: 10%; }
+  div#home-container div.greeting { padding: 10px; position: relative; top: 12%; }
   div.greeting h1 { font-size: 1.5em; }
   div#home-container h1#thatsme:after {
     top: -50px;
