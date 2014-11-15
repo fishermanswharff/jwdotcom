@@ -39,6 +39,7 @@ App.responsiveImage = function(){
   if(App.windowSize == 'large'){
     $thumbs.each(function(index,thumb){
       var source = $(this).attr("src");
+      debugger;
       source.replace(/(small)/, 'medium');
     });
   }
