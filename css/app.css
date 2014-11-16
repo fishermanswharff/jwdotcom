@@ -214,13 +214,14 @@ div.greeting p a.btn:hover {
 div.projects { padding: 60px 10px; }
 div.project { 
   display: inline-block;
-  width: 29%;
+  width: 45%;
   margin: 2%;
   position: relative; 
   /*margin: 10px auto 50px; */
   text-align: center; 
   border-bottom: 1px dotted #00b3b7;
   padding-bottom: 30px;
+  float: left;
 }
 div.project img.project-thumb { width: 100%; }
 div.project p { font-size: 0.8em; margin: 0.6em;}
