@@ -213,9 +213,11 @@ div.greeting p a.btn:hover {
 /*—————————————————*/
 div.projects { padding: 60px 10px; }
 div.project { 
-  width: 100%; 
+  display: inline-block;
+  width: 29%;
+  margin: 2%;
   position: relative; 
-  margin: 10px auto 50px; 
+  /*margin: 10px auto 50px; */
   text-align: center; 
   border-bottom: 1px dotted #00b3b7;
   padding-bottom: 30px;
