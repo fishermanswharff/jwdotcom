@@ -359,6 +359,10 @@ span.contact-icon {
   left: -3px;
 }
 
+span.contact-icon img {
+  max-height: 32px;
+}
+
 
 
 
