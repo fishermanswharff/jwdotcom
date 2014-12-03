@@ -26,6 +26,10 @@
     "Instagram": {
       "url": "http://instagram.com/jasonwharff",
       "icon": "images/instagram-white.svg"
+    },
+    "Tumblr": {
+      "url": "http://blog.jasonwharff.com",
+      "icon": "images/tumblr-white.svg"
     }
   }
 }
