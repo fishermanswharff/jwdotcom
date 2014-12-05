@@ -36,6 +36,7 @@ App.checkBrowserSize = function(){
   App.responsiveImage();
 };
 
+
 App.responsiveImage = function(){
   var $thumbs = $('img.project-thumb');
   if(App.windowSize === 'small'){
