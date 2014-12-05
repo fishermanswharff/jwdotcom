@@ -1,4 +1,4 @@
-function trace(){ for(var i = 0, count = arguments.length; i < count; i++){console.log(arguments[i]);}};
+function trace(){ for(var i = 0, count = arguments.length; i < count; i++){console.log(arguments[i])};};
 
 var App = {
   windowSize: '',
@@ -13,6 +13,9 @@ App.activateNavigation = function(e){
 };
 
 App.checkBrowserSize = function(){
+
+  var newWindowSize;
+
   if(App.isIE){
     App.windowWidth = $('body').width() + 33;
   } else {
@@ -25,9 +28,9 @@ App.checkBrowserSize = function(){
 
   if(App.actualSize > 1024){ newWindowSize = 'large'; }
   if(App.actualSize <= 1024 && App.actualSize >= 768){ newWindowSize = 'medium'; }
-  if(App.actualSize < 768){ newWindowSize = 'small'}
+  if(App.actualSize < 768){ newWindowSize = 'small'};
 
-  if(App.windowSize != newWindowSize){
+  if(App.windowSize !== newWindowSize){
     App.windowSize = newWindowSize;
   }
   App.responsiveImage();
@@ -35,26 +38,26 @@ App.checkBrowserSize = function(){
 
 App.responsiveImage = function(){
   var $thumbs = $('img.project-thumb');
-  if(App.windowSize == 'small'){
+  if(App.windowSize === 'small'){
     $thumbs.each(function(index,thumb){
       var source = $(this).attr("src");
       source = source.replace(/medium/gi, 'small');
       $(thumb).attr("src",source);
     });
-  } else if(App.windowSize == 'medium'){
+  } else if(App.windowSize === 'medium'){
     $thumbs.each(function(index,thumb){
       var source = $(this).attr("src");
       source = source.replace(/small/gi, 'medium');
       $(thumb).attr("src",source);
     });
-  } else if(App.windowSize == 'large'){
+  } else if(App.windowSize === 'large'){
     $thumbs.each(function(index,thumb){
       var source = $(this).attr("src");
       source = source.replace(/small/gi, 'medium');
       $(thumb).attr("src",source);
     });
   }
-}
+};
 
 $(document).ready(function(){
   $("a#menu-button").on("click",function(event){
@@ -67,5 +70,5 @@ $(document).ready(function(){
   }
 
   App.checkBrowserSize();
-  setInterval('App.checkBrowserSize()',100);
+  setInterval(App.checkBrowserSize(),100);
 });
